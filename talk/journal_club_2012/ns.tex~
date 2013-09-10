@@ -1,0 +1,223 @@
+\section{Neutron Stars}
+
+\subsection*{The Physics of Neutron Stars}
+\begin{frame}
+\frametitle{The Physics  of Neutron Stars as an Open Problem}  
+\begin{columns}[c]
+\begin{column}{0.7\textwidth} 
+\begin{itemize}
+\scriptsize{
+ \item Stellar objects w/ {\bf most extreme densities} and {\bf strongest} $\textbf{B}$.
+ %(several times the densities in atomic nuclei the core, Magnetic field strengths can exceed the strongest in Earth by 10 orders).
+ 
+ \quad
+ 
+ \item {\bf Energetically favorable} for protons/electrons to form {\bf free neutrons}. 
+ 
+ \quad
+ 
+ \item {\bf Pressure balance} due {\bf degeneracy pressure} of the free neutrons gas and {\bf nuclear interactions}.
+ 
+  \quad
+ 
+ \item {\bf Core} must exhibit {\bf collective behavior of particles}. \\{\tiny (Paerels et al, 2009)}
+% Free neutrons normally $\beta$ decay in $\sim 15$ minutes, but at sufficient depths in the NS the decay reaction is suppressed as the Fermi energy becomes too high to be populated by the electrons which would be created in the decay. 
+
+\quad
+  
+  \item {\bf Hyperon}-dominated matter, {\bf deconfined quark matter}, {\bf strange quark matter}, {\bf superfluity}, and {\bf superconductivity}, can be present in NSs. 
+  
+   \quad
+ 
+ \item {\bf Matter} can only be probed through  {\bf observations} measuring {\bf mass} and {\bf radius} with {\bf sufficient precision}, defined by the {\bf Equation of State} (EoS).  {\tiny (Lattimer $\&$ , 2007)}
+
+ \quad
+
+ \item The determination of the {\bf EoS} of this {\bf cold ultradense matter} is a {\bf challenge} of high-energy and nuclear astrophysics. 
+ 
+ \quad
+ 
+
+ }
+ 
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}    
+\begin{center}
+ {\tiny QCD phase diagram  (Paerels et al, 2009):}
+\includegraphics[scale=0.2]{figs/phasetran.png}\\
+ {\tiny High-density/Low T regions are inaccessible to\\ terrestrial experiments.}
+ \end{center}
+\end{column}
+\end{columns} 
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+\frametitle{How to Study Neutron Stars}  
+\begin{enumerate}
+ \item {\scriptsize 
+	Observational events that probe NSs:
+	    \begin{itemize}{\scriptsize
+	     \item Dynamics of binary systems;
+	     \item Structure and energetics of radio pulses,
+	     \item Spectra and variability of their high energy radiation,
+	     \item Direct observations of the emission of NS surface, }
+	     \begin{itemize}{\scriptsize 
+	       \item often hidden from view,
+	       \item overpowered by non-thermal magnetospheric emission in isolated sources or accretion luminosity from binaries.}
+	      \end{itemize}
+	      \item  However evidences of surface emission from:
+		\begin{itemize}{\scriptsize 
+		 \item isolated cooling NS
+		 \item accreting sources during quiescence,
+		 \item thermonuclear bursters,
+		 \item isolated NS powered by magnetic field.}
+		\end{itemize}
+	        \end{itemize}}
+	
+	
+	 \quad
+	 
+	 
+ \item 	 {\scriptsize Studying observed surface emission as a tool to understand NS requires detailed models of their atmospheres, which shape the spectrum and the pattern of radiation from the stellar crust and core:}
+	   \begin{itemize}{\scriptsize 
+	    \item  many magnetic field strengths,
+	    \item compositions,
+	    \item temperatures,
+	    \item ionization states.}
+	   \end{itemize}
+	   
+	    \quad
+	    
+
+ \item	    {\scriptsize 
+    Observations of NS in quiescence and during the thermonuclear bursts led to first constraining measurements of radii, $9 km < R <12 km$ (eos >15km is disfavored by observations).}
+
+
+	  \quad
+	  
+	  The surface emission from NS can be powered by:
+	{\scriptsize 
+	  \begin{itemize}
+	   \item  release of internal heat of the star, 
+	   \item accretion, 
+	   \item nuclear reactions on the surface, 
+	   \item magnetic field decay, 
+	   \item rotational energy.
+	  \end{itemize}
+	}
+	 
+	 
+\end{enumerate}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Energy Sources}
+\begin{frame}
+\frametitle{Radiation of Residual Heat in Young NSs}   
+	{\scriptsize 
+	  \begin{itemize}
+	   \item After the supernova explosion, the hot prot-neutron star with $T\sim 10^{11} K$ cools by neutrino emission from the interior to photon cooling from its surface.
+	  \end{itemize}
+	  page 5 to 11
+	}       
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Flux, spectron, anisotropy of surface emission}
+\begin{frame}
+\frametitle{Flux, spectron, anisotropy of surface emission}
+page 11-17
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Atmosphere models}
+\begin{frame}
+\frametitle{Atmosphere models}
+page 17 to 23,
+my results
+\end{frame}
+
+\begin{frame}
+\frametitle{The Color Factor}
+ 
+ Color correction in the spectrum
+Neutron star spectra look like blackbody, but
+shifted to higher temperatures
+fc = Tbb/Teff
+Typically by a factor fc = 1.3 - 1.8
+
+Emission anisotrop
+(see Lapidus $\&$ Sunyaev ’85, Fujimoto ’88):
+Can change observed flux by up to a factor of 2
+X-rays preferentially emitted in this direction
+my results
+
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Observed Physical Quantities}
+\begin{frame}
+\frametitle{Observed Physical Quantities}
+observational apperance of a ns is affected by the redshifeted and lensed effects when propagating
+\item in the scwarzschild metric, $$g_{tt} = - 1(1 - 2GM/Rc^2)$$
+the gravitational eefects on the observational apperance of a slowly spinning ns can be caracterized by a single paramer, compactness, $p = 2GM/Rc^2$
+\item the redshif tis $1+z = |g_{tt}|^{-1/2}$
+\item the len from the strong grav field gives an area to apperar large by an area of $$S_{\infty}/4\pi R^2 = (1+z)^2$$
+\iten $T_{eff, \infty} = T_{eff,s}/1+z$
+\item the total flux observed from the ns at D is $$F_{\infty} = \sigma_B T^4_{eff,\infty} \Big ( |frac{R}{D} \Big)^2 (1+z)^2$$
+\item the eddigton lum at inf is
+$$L_{E,\inft} = \frac{8\pi m_pc}{(1+X)\sigma_T} \Big (1 - \frac{2GM}{Rc^2} \Big)^{1/2}$$
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Theory on NS}
+
+\subsection*{neutron star radii and compactness}
+\begin{frame}
+\frametitle{neutron star radii and compactness}
+pag 37-44
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{composition of the neutron star interior, crust}
+\begin{frame}
+\frametitle{composition of the neutron star interior, crust}
+pag 44 -48
+\end{frame}
+
+

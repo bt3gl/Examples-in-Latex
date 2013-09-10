@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage[english]{babel}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{xmpmulti}
+
+\def\vec#1{\text{\bfseries{\rmfamily{#1}}}} 
+%\setbeamertemplate{navigation symbols}{} 
+
+\mode<presentation>
+{
+  \usetheme{Copenhagen}
+  \useinnertheme{circles}
+  \usecolortheme{dolphin}
+  \usecolortheme[rgb={0,0.2,0}]{structure}  
+  \usefonttheme[onlymath]{serif}
+}
+
+\title[Jet Physics at sPHENIX \qquad \qquad \ \insertframenumber/\inserttotalframenumber]{Jet Studies at sPHENIX}
+
+\subtitle{Toward the Jets Reconstruction for the PHENIX Upgrades }
+\author[Marina von Steinkirch]{Marina von Steinkirch} 
+\institute[SUNY Stony Brook]
+{
+  Department of Physics \& Astronomy\\
+  State University of New York at Stony Brook
+}
+\date{\scriptsize{March, 2012 - Room C-120}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+%\include{1_intro}
+\include{3_jets}
+\include{4_simulations}
+\include{5_conclusions}
+
+\end{document}

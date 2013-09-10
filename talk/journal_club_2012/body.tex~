@@ -1,0 +1,401 @@
+\section{Neutron Stars}
+
+\subsection*{Introduction}
+\begin{frame}
+\frametitle{Neutron Stars}  
+\begin{itemize}
+\scriptsize{
+ \item Compact stellar objects with highest densities in the universe (matter $> 10$ times nuclear densities).
+ \item At these densities and pressures; energetically favorable for protons and electrons to form free neutrons. 
+ \item free neutrons normally $\beta$ decay in $\sim 15$ minutes, but at sufficient depths in the NS the decay reaction is suppressed as the Fermi energy becomes too high to be populated by the electrons which would be created in the decay. 
+ \item Neutron stars are supported by the degeneracy pressure of those free neutrons, as is the case of white
+dwarfs with electrons, but there are also nuclear interactions role in the pressure balance.
+ \item matter in the conditions can only be probed through astrophysicals observationxs that measure mass and radius with sufficient precision.
+ \item The determination of the equation of state of cold, ultradense matter, such as that found in the interiors of neutron stars, has been one of the key science goals of high-energy astrophysics and nuclear physics. 
+ \item cores of ns: highest matter densities in nature, several times the densities in atomic nucei. magnetic field strnghs can exceed the stronges here by 10 orders.
+hyperon-dominated matter, deconfined quark matter, superfluidity, superconductivy are predict in ns
+ \item initial attemps to model their mehcanic properties were based on the assumption that the matter can be adequately desxcribed as a degenetates gas of free neutrons, but its now clear that the cores of ns must be the stage for intricate collect behaviour of particles *Paerels et all, arXiv:0904:0435v1
+phase transition to free partons, low dens, high temo limit of qcd, high densi and low tem -> hyperons, bose dondentaitons of pions/ka, strange quark matter?
+ \item fhoto t x baryonic (my oral), some backup qgp--> ``The Behavior of Matter Under Extreme Conditions'', arxx:0904.0435
+ \item THE HIGH-DENSITY/LOW TEMP REGION OF qcd PHASE DIAGRAM is inacessible to high energy terrestrial experiments and can only be probed in ns
+ }
+\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+\frametitle{Physics of NS}  
+	{\scriptsize 
+	  \begin{itemize}
+	   \item More than 2000 NSs have been discovered in the Galaxy, from pulsating sources in radio to bright persistent sources in X-Rays.
+	   \item Stellar objects with most extreme densities and strongest magnetic fields.
+	   \item Strongest gravitational fields among all objects with a surface.
+	   \item NS Studies:
+	    \begin{itemize}
+	     \item Dynamics of binary systems,
+	     \item structure and energetics of radio pulses,
+	     \item spectra and variability of their high energy radiation,
+	     \item direct observations of the emission of NS surface.
+	    \end{itemize}
+	    \item NS Surfaces:
+	      \begin{itemize}
+	       \item often hidden from view,
+	       \item overpowered by non-thermal magnetospheric emission in isolated sources or accretion luminosity from binaries.
+	       \item however, evidences of surface emission from:
+		\begin{itemize}
+		 \item isolated cooling NS
+		 \item accreting sournces during quiescence,
+		 \item thermonuclear bursters,
+		 \item isolated NS powered by magnetic field.
+		\end{itemize}
+	      \end{itemize}
+	  \end{itemize}
+	  giving wide range of conditions as t, B, spin period, age...
+	}       
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Physics of NS}   
+	{\scriptsize 
+	  \begin{itemize}
+	   \item Studying observed surface emission as a tool to understand NS requires detailed models of their atmospheres, which shape the spectrum and the pattern of radiation from the stellar crust and core:
+	   \begin{itemize}
+	    \item  many magnetic field strengths,
+	    \item compositions,
+	    \item temperatures,
+	    \item ionization states.
+	   \end{itemize}
+	   \item Observations of NS in quiescence and during the thermonuclear bursts led to first constraining measurements of radii, $9 km < R <12 km$ (eos >15km is disfavored by observations).
+	  \end{itemize}
+	}           
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Energy Sources}
+
+\begin{frame}
+\frametitle{Energy Sources}   
+The surface emission from NS can be powered by:
+	{\scriptsize 
+	  \begin{itemize}
+	   \item  release of internal heat of the star, 
+	   \item accretion, 
+	   \item nuclear reactions on the surface, 
+	   \item magnetic field decay, 
+	   \item rotational energy.
+	  \end{itemize}
+	}          
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Radiation of Residual Heat in Young NSs}   
+	{\scriptsize 
+	  \begin{itemize}
+	   \item After the supernova explosion, the hot prot-neutron star with $T\sim 10^{11} K$ cools by neutrino emission from the interior to photon cooling from its surface.
+	  \end{itemize}
+	}       
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+\subsection*{neutron star radii and compactness}
+\begin{frame}
+\frametitle{neutron star radii and compactness}
+
+latimmer and Prakash 2007 number of possible mass-radius relations for eos. two family of solutions inidcatedL eos made yo of bound quark states (baryons, meson) (R+ M+) or solutions which a phase transition has converted most of the stellar matter to strange quark matter,  (R+ M-)
+disxccrimitation between different families of hadronic eos will rquire relative precison of order of 10$\%$ in mass and radius
+plot from lat and prack m vs ra
+
+The large observational
+catalogues of type I X-ray bursts now available (Galloway et
+al. 2008; hereafter G08) and new spectral models (Madej,
+Joss, $\&$ Rozanska 2004; Majczyna et al. 2005; Suleimanov,
+Poutanen, $\&$ Werner 2011b) have motivated fresh attempts
+to do this using photospheric radius expansion bursts (Özel
+2006; Özel, Güver, $\&$ Psaltis 2009; Güver et al. 2010a, 2010b;
+Steiner et al. 2010; Suleimanov et al. 2011a, 2011b; Özel,
+Gould, $\&$ Güver 2011). In this approach, the peak luminosity
+of the burst (specifically at the ``touchdown'' point when the
+photosphere returns to the neutron star surface) is related to
+the Eddington luminosity, and the normalization of the burst
+spectrum is related to the emitting area. If some informa-
+tion about the distance to the source is available, constraints
+on the neutron star mass and radius can be derived. These
+works have highlighted and spurred debate about some of the
+systematic errors that must be taken into account, such as un-
+certainty in identifying the moment at which the photosphere
+touches down (Galloway, Özel, $\&$ Psaltis 2008; Steiner et
+al. 2010; Suleimanov et al. 2011a,b; Güver, Özel $\&$ Psaltis
+2011), and differences in derived radii when using bursts at
+different accretion rates from the same source (Suleimanov et
+al. 2011a,b; Güver, Psaltis, $\&$ Özel 2011).
+
+e first de-
+termine the constraints on neutron star mass and radius that
+can be derived from the lightcurve comparison carried out by
+Heger et al. (2007). The basic idea here is that even though
+the X-ray bursts from GS 1826−24 do not reach the Edding-
+ton limit, we can still determine the intrinsic luminosity of
+the bursts by comparing with the lightcurve models. This re-
+places the touchdown measurement used for PRE bursts with
+a different condition which we use to constrain M and R for
+
+
+\end{frame}
+
+\subsection*{composition of the neutron star interior, crust}
+\begin{frame}
+\frametitle{composition of the neutron star interior, crust}
+\end{frame}
+
+\subsection*{ns B, evolution}
+\begin{frame}
+\frametitle{ns B, evolution}
+\end{frame}
+
+\subsection*{other approaces}
+\begin{frame}
+\frametitle{other approaces}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Neutron Star Surface Emission}
+
+\subsection*{Energy Sources}
+\begin{frame}
+\frametitle{Energy Sources}
+\begin{itemize}
+\scriptsize{
+ \item Low mass X-ray binaries that show thermonuclear X-ray bursts are ideal sources to put constraints on the equation of state of neutron star matter. 
+ \item Lack of independent distance measurements for most of these sources, however, prevents a systematic exploration of the mass and radius of these neutron stars, and hence the equation of state at such nuclear densities.
+  \item Many accreting neutron stars in low mass X-ray binaries exhibit bright momentary flashes in X-rays from unstable nuclear reactions on their surfaces. These events which occur every few hours or days are known as Type I X-ray bursts, or simply X-ray bursts.
+  \item  Low-mass X-ray binaries The term Low-mass X-ray binary (LMXB) generally refers to a binary system consisting of a compact object, either a NS or black hole, orbiting a low-mass ( 1.4M ) star, typically on the Main Sequence, but also possibly in more advanced evolutionary stages. In such a binary system, the equipotential surface around a star delimiting the space within which matter is bound to that star is called its Roche lobe. See Figure 1–1 for an illustration of the Roche potential.
+  \item  During accretion, a substantial amount of angular momentum can be acquired by the NS, from the orbit of the binary. In this manner, a NS can be spun up to very short periods. It is the accepted evolutionary scenario that NSs in LMXBs eventually become millisecond pulsars after the accretion phase, when the companion has either collapsed into a degenerate white dwarf, or perhaps been destroyed, either by X-ray irradation from the NS during accretion, or from a pulsar wind of relativistic particles.
+ }
+\end{itemize}
+\end{frame}
+
+
+
+
+
+most we know is baed on the emission spectrum emerging from their photspheres, ns are far and optical or UV radiation from their surfavces is dificult, and they will be Rayleigh-Jeans tail of stellar specgtrim, which is not sensitive to stellar proprieties,, the natural wavelength band for photospheric observations is the X-ray badn.
+
+X-ray burst from accreting neutron stars in Low mass X-rat binaries (LMXBs), low spectral resoltuion high S/N
+
+one atomic photosperhric absortion in burst spectrion of a accreting ns, leding to grav redshift at the stelar surface. distance to accreting ns are know because they are in globular clusters. in accretion cases, the atm should be pure H.
+
+for objects with  with a know spin period, the doppler boradening provieds a direct measurement of stellar rdius
+gr light bending effects on phase bodilation of the absorption ,lines and total flux produce measurement of the acceleration of gravity in the surface.
+in cases where an atomic abosorption line is detcted, redshif measuremen is sufficent.
+
+several thecniques are available with sensitive X-ray spectroscopy and photometry
+\begin{itemize}
+ \item spectroscop observations of X-ray burst give the atomic absorption spectrum, which through pressure broadening and GR effects is sensitive to both the acceleration of gravity at the stellar surface and the redshift, gives two function of r and m.
+ \item ns at know distances, measured fluxes comapred to the flux emergubg from the stellar phpotsphere will give the stellar radius.
+ \item continul spectral shape is sensitive to the surface gravity, again allowing a mass and radius measurem,ent.
+ \item the ability to time- and energy- resolve emission from bursting or spinning stars provides uniqu bervatin: for obkects with know spin period, the Doppler boradening provieds a direct measurement of stellar radius.
+ \item GR light bedning effects on the phase modulation of the ab lines and flux give measurement of acceleraton of gravity at surface
+ \item in case an atomic absroption line is detected, redshift meadurent is suffecient
+\end{itemize}
+
+\subsection*{Flux, spectron, anisotropy of surface emission}
+\begin{frame}
+\frametitle{Flux, spectron, anisotropy of surface emission}
+\end{frame}
+
+
+\subsection*{Atmosphere models}
+\begin{frame}
+\frametitle{Atmosphere models}
+\end{frame}
+
+
+\subsection*{Observed Physical Quantities}
+\begin{frame}
+\frametitle{Observed Physical Quantities}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{X-ray bursts}
+
+
+\subsection*{What are X-ray bursts}
+\begin{frame}
+\frametitle{What are X-ray bursts}
+\begin{itemize}
+ \item They are bright
+ \item We see the neutron star surface
+ \item Spectra well fit by Planck curves
+ \item Type I X-ray bursts to infer M,R
+Lewin et al. (1993), figure
+\end{itemize}
+\end{frame}
+
+\subsection*{Time Resolved X-ray Spectroscopy}
+\begin{frame}
+\frametitle{Time Resolved X-ray Spectroscopy}
+\begin{itemize}
+ \item Using archival RXTE observations of X-ray bursters, we identify thermonuclear X-ray
+bursts.
+ \item We extract spectra for 0.25, 0.5, 1 and 2 s time intervals, depending on the source count rate during the burst. 
+ \item We then model each of these X-ray spectra with a blackbody function and measure two physical parameters:
+ \begin{itemize}
+  \item Eddington Flux: In each burst, we measure the Eddington flux at the so-called touchdown point where the photosphere
+returns to the neutron star surface following an expansion event. At this point, the flux is still at the
+local Eddington limit and the outermost layers are radiation pressure supported. Figure 1 shows the
+spread of the touchdown fluxes measured in individual bursts around the central value determined
+per source. As can be seen, for numerous sources, the variation around the mean is less than 10% of the
+central value, indicating that, for each source, there is an intrinsic and reproducible limit that is reached
+during the photospheric radius expansion bursts. also defomned as tje radiation flux at which the outward radiation force balances the inward gravitational force, the limiting flux emerging from thermonuclaer x-ray bursts with pre.
+  \item Apparent radius: During the cooling tail of an X-ray burst the flux and temperature follow a tight,
+reproducible correlation throughout the cooling with a power-law index of −4,
+indicating a well-defined surface area of the neutron star. The second spectral quantity
+is the normalization measurements obtained during the cooling tails of the PRE bursts.
+Normalization in the XSPEC model bbodyrad, is related to the apparent blackbody
+radius and the distance through A = (Rapp / D10kpc )2 , where R is the apparent radius and
+D is the distance in units of 10 kpc. In order to find an average normalization
+measurement for each burst, we take the measurements only for selected time
+intervals after each burst started, when the apparent radius remained constant.
+ \end{itemize}
+\end{itemize} 
+\end{frame}
+
+
+\subsection*{Photospheric Radius Expansion (PRE)}
+\begin{frame}
+\frametitle{Photospheric Radius Expansion (PRE)}
+Some polemic: F.Ozel `` Soft Equations of State for NS ruled out''
+
+RTXE,  special type of thermonuclear X-ray burst that is strong enough to lift up the outer layers of the star, during PRE, the radiation flux that emerges from the stellar surface is limited by Eddington flux.
+
+dependence of three observables: eddigton limit, redshif and Fcool/T4c (thermal flux/color temperature), closed related to the total emitting area. when they are  know, the expressions can be combined to yield a unic solution for three stellar parementers
+(euqations from her paper)
+- amount of rotational broading in the redshifted lines leads to a direct measurement of the radius of the star, with uncertaintly from angle that the obsever makes to the rotational axis. for slowly spining stars, other broading can dominate.
+- the only model parameters that are required in this solution are f-c for an observer in the infinite = Tc/Teff, by modeling the bursting ns spectra, and electron scattering opacit $\kappa_{es}$
+f depend on X (hid mass frazction solar abudance comp), g gravitation acceleratuion at ns surface, Teef,--> ful ionized ns atmosphere during the radius-expansion
+uncertains: assuming that themodnuclear flash emnguls entire star
+
+copy two table her paper
+figure m vs r
+
+touchdown:
+the edd limit is related to the point during a radius expansion burst at which this quantity is measured. the relevant measurnt is caled touchdown flux, which is the eddd limit at the point in the burst when the photosphere returns to the radius of the star. the flux cannot be smller than the edd flux because if the radiation supports  the atmosphere were removed, the photospheric raidus would returnt ot eh actual size of the star within a firre fal timescale, but insted the return is adbatic, at few seconds
+
+unkown? hid fraction? X=0.7?
+
+
+
+
+
+
+in a subset of themodnuclear bursts called PRE the spurce flux reaches a peak that is thought to correspond to the local eddigton flux on the stellar surface, related to the mas and the radius of the neutron star. a second spectroscopic quantity that can be used to infer the mass and the radius of the neutron star is observed during the cooling tails of thermodnucalr bursts. during the cooling pahese, the measred apparent area of the emmiting region remais constant while both the flux and the color tempertature decrease. it has been shown that the observed surface areas reamin constant between different bursts of the same source, indicating the emission arises from a reproducible area on the stellar surface, likely corresponding to the entire ns surface. in addtion to these two spectrosocpic quantites, determinting both the ns mass and its radius requires an independent distance or gravitational redshift measurement.
+
+\end{frame}
+
+
+
+\subsection*{Distance Measurements }
+\begin{frame}
+\frametitle{Distance Measurements}
+(Güver, Ozel, Cabrera-Lavers, $\&$ Wroblewski 2008) 
+We use two different techniques to measure the distances to X-ray bursters; one is based 
+on the known distances to the globular clusters and the other is based on following how 
+the extinction varies with distance using red clump stars as our standard candles. 
+
+Red clump giants have long been proposed as standard candles (Paczynski $\&$ Stanek 1998).
+These are core helium-burning giants with a very narrow luminosity function that
+constitute a compact and well-defined clump in an Hertzsprung-Russell (HR) diagram,
+particularly in the infrared. Furthermore, as they are relatively luminous, they can be
+identified to large distances from the Sun.
+
+As a result, they are excellent infrared standard candles and can be used to study galactic
+distances and structure. When red clumps are identified at a range of distances, then the
+reddening at each distance can be measured. By comparing the reddening of the target
+source with the reddening ladder obtained by the red clump stars, the distance to the
+target can be measured.
+\end{frame}
+
+
+
+
+\subsection*{How do XRBs constrain R and M?}
+\begin{frame}
+\frametitle{How do XRBs constrain R and M?}
+
+
+Bringing all together :
+(see e.g. Ozel, Güver, $\&$ Psaltis 2009)
+The observed spectroscopic quantities and the distance depend on the stellar mass and
+radius according to the relations,
+
+$$F_{TD} = \frac{GMc}{K_{es} D^2} \Big ( 1 - \frac{2GM}{Rc^2} \Big)^{1/2}$$
+and
+$$ A = \frac{R^2}{D^2f_c^4} \Big( 1 - \frac{2GM}{Rc^2} \Big )^{-1}$$
+
+where $A$ is the blackbody normalization, $F_{TD}$ is the touchdown flux and $k_{es}$ is the opacity to electron scatering, $f_c$ the color correction factor.
+
+In the absence of eerors, these two equatiosca can be solved for the mass and raidus of the neutron star.
+\end{frame}
+
+
+
+
+\subsection*{The Color Factor}
+\begin{frame}
+\frametitle{The Color Factor}
+ my results
+ 
+ Color correction in the spectrum
+Neutron star spectra look like blackbody, but
+shifted to higher temperatures
+fc = Tbb/Teff
+Typically by a factor fc = 1.3 - 1.8
+
+Emission anisotrop
+(see Lapidus $\&$ Sunyaev ’85, Fujimoto ’88):
+Can change observed flux by up to a factor of 2
+X-rays preferentially emitted in this direction
+
+
+\end{frame}
+
+
+
+\subsection*{Census of NS Sources with Surface Emission}
+\begin{frame}
+\frametitle{Census of NS Sources with Surface Emission}
+\end{frame}
+
+
+

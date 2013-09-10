@@ -1,0 +1,132 @@
+\section{{\bf Jets Reconstruction Simulations}}
+\begin{frame}
+  \center{\fcolorbox{green}{white}{{\bf Jets Reconstruction Simulations}}}
+\begin{center} {\scriptsize
+{\bf Studies to verify the Feasibility of Purely Calorimetric Jet Measurements at RHIC.}}
+\end{center}
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{How to Define Jets Numerically?}  
+
+{\scriptsize 
+\begin{block}{\small Clustering $k_T$ (the Anti-$k_T$ Algorithm)}
+A {\bf jet algorithm} maps the final state particles' $k_T$  into to Jet's $p_T$:
+\begin{enumerate}
+ \item Defining the distance between two particles $i$ and $j$:
+$D_{ij} = \mbox{ min }\Big (\frac{1}{k^{2}_{T,i}}, \frac{1}{k^{2}_{T,j}}\Big)\frac{(\Delta \phi_{ij}^2 + \Delta \eta^2_{ij})}{R^2}$
+\item Define the distance between any particle $i$ and the beam: $D_{ib} = \frac{1}{k_{T,i}^2}$.
+\item Compute all distances, find the smallest: if it's a $D_{ij}$, sum for total momenta, update distance, find next, if it's a $D_{ib}$, remove $i$ and call it a Jet.
+\item Repeat until all particles are clustered into a Jet.
+\end{enumerate}
+
+\end{block}
+ \center{
+{\scriptsize Algorithm should be Infrared safe: soft emission and collinear splitting should not change the Jet}
+\includegraphics[scale=0.16]{figs/jets/diver.png}
+\includegraphics[scale=0.18]{figs/jets/col.png}}
+}
+
+{\tiny (M.Cacciari, G.Salam, G.S.,JHEP 04 (08) 063.)}
+
+
+\end{frame}
+
+
+
+
+\subsection*{Jet Reconstruction Algorithm}
+\begin{frame}
+\frametitle{  Reconstruction and Separation from Underlying Event}
+
+
+\begin{block}{}{
+\begin{center}
+{\bf Measured} Jets (what a ``perfect detector'' measures)  \\
+$\downarrow$\\
+ {\bf Truth} Jets (fragmentation of hard partons from HIJING)\\
+=\\
+ {\bf Reconstructed} Jet (anti-$k_T$ algorithm) \\
+{\it \bf removing} \\
+{\bf Fake} Jets and {\bf Background} 
+\end{center}}
+\end{block}
+
+\begin{block}{\scriptsize  Arbitrary Definitions: }
+\begin{enumerate}{\scriptsize 
+ \item Fake Jet: when the associated HIJING fragmentation jet has $E_T < 5$ GeV.
+\item Jet Radius parameters for the anti-$k_T$ algorithm: $R =0.2, 0.3, 0.4$.
+\item Segmentation of our perfect detector: $\Delta \eta \times \Delta \phi = 0.1 \times 0.1$.}
+\end{enumerate}
+\end{block} 
+\end{frame}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{The  Algorithm: First Iteration}  
+\begin{center}
+   \fcolorbox{white}{white}{\includegraphics[scale=0.22]{figs/plots/FlowChart1.png}}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{The  Algorithm: Second Iteration}  
+\begin{center}
+   \fcolorbox{white}{white}{\includegraphics[scale=0.22]{figs/plots/FlowChart.png}}
+\end{center}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Event Display}
+\begin{frame}
+\frametitle{Example of Jet Event Display}  
+ 
+\begin{center}
+   \fcolorbox{white}{white}{\includegraphics[scale=0.38]{figs/plots/fakejetmeee.png}}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Example of Jet Event Display}  
+ 
+\begin{center}
+   \fcolorbox{white}{white}{\includegraphics[scale=0.22]{figs/plots/events.png}}
+\end{center}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{ Jets We Were Able to Reconstruct}
+\begin{frame}
+\frametitle{ Range of Jets well Separated from Background Fluctuations}  
+
+\begin{center}{\scriptsize
+Jets with signal to background with  $E_T > 20$ GeV for $R=0.2$ to  $E_T > 30$ GeV for $R=0.4$.}
+
+   \fcolorbox{white}{white}{\includegraphics[scale=0.26]{figs/plots/finall.png}}
+\end{center}
+\end{frame}
+
+
+
+
+
+
+

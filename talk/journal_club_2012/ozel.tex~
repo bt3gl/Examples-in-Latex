@@ -1,0 +1,91 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage[english]{babel}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{xmpmulti}
+
+\setbeamercovered{highly dynamic}
+
+\newcounter{saveenumi}
+\newcommand{\seti}{\setcounter{saveenumi}{\value{enumi}}}
+\newcommand{\conti}{\setcounter{enumi}{\value{saveenumi}}}
+
+
+\def\vec#1{\text{\bfseries{\rmfamily{#1}}}} 
+%\setbeamertemplate{navigation symbols}{} 
+
+\mode<presentation>
+{
+  \usetheme{Copenhagen}
+  \useinnertheme{circles}
+  \usecolortheme{dolphin}
+  \usecolortheme[rgb={0,0.2,0}]{structure}  
+  \usefonttheme[onlymath]{serif}
+}
+
+\title[Surface Emission from Neutron Stars\qquad \qquad \ \insertframenumber/\inserttotalframenumber]{Surface Emission from Neutron Stars}
+
+\subtitle{and Implications for the Physics of their Interiors, \\based on F. Ozel, arXiv:1210.0916}
+\author[Marina von Steinkirch]{Marina von Steinkirch} 
+\institute[SUNY Stony Brook]
+{
+  Department of Physics \& Astronomy\\
+  State University of New York at Stony Brook\\
+}
+\date{\scriptsize{Astro Journal Club, 10/19/2012}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Outline of This Talk}  
+\begin{columns}[c]
+\begin{column}{0.6\textwidth} 
+  \tableofcontents
+  \end{column}
+  \begin{column}{0.55\textwidth} 
+  \begin{center}\scriptsize{
+  {\bf ANALYTIC EQUATIONS:}\\
+  Neutron Star's EoS constrained by (R,M)\\
+  
+  \quad
+  
+   \includegraphics[scale=0.15]{figs/arrow.png}\\
+  
+  \quad
+  
+  {\bf OBSERVATIONAL ASTROPHYSICS:}\\
+  Many different observables and methods of observation, currently still not precise enough.
+  
+  \quad
+  
+   \includegraphics[scale=0.15]{figs/arrow.png}\\
+  
+  \quad
+  
+  {\bf  COMPUTATIONAL SIMULATIONS AND FITTINGS:}\\
+  Surface is what you probe: Many theoretical models of atmosphere for many physical parameters.
+  }
+  \end{center}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+\include{nss}
+\include{x-ray}
+\include{conclusions}
+\end{document}

@@ -1,0 +1,207 @@
+\section{{\bf Jets in the Quark-Gluon Plasma}}
+
+\begin{frame}
+  \center{\fcolorbox{green}{white}{{\bf Jets in the Quark-Gluon Plasma}}}
+\begin{center} {\scriptsize
+{\bf What are Jets and how we will study them on RHIC.}}
+\end{center}
+\end{frame}
+
+
+
+
+\subsection*{Energy Loss as an Open Question}
+
+\begin{frame}
+\frametitle{What Happens to a Quark Produced in Early Stages of a Heavy-Ion Collision?}
+\begin{center}
+Electrons decays of charm and bottom mesons ({\bf heavy quarks}) with {\bf suppression} at high $p_T$ {\bf  as large as} that for {\bf light hadrons}.\\
+\bigskip
+ But {\bf heavy quarks have enough mass} that they would {\bf not experience collisional energy loss} as light quarks...\\
+\bigskip Not explained by  pQCD...
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Energy Loss of Heavy Quarks }  
+\begin{center}
+\fcolorbox{white}{white}{\includegraphics[scale=0.21]{figs/plots/heavy.png}}\\ 
+{\tiny Larger suppression of electrons in $ p_T \sim 4-8$ GeV falsifying assumption that HQ quenching is dominated by radiative energy loss.}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{How Does a High Energy  Parton Interact with  QGP?}  
+
+\begin{enumerate}
+
+\item What is the mechanism by which partons interact with the medium?
+\bigskip
+\item How is the final-state parton shower, from a hard scattering, modified by the QGP ?
+\bigskip
+\item Where does the lost energy go?
+\bigskip
+
+\end{enumerate}
+\begin{center}
+We need more studies on the \\{\bf hard scattering processes} and {\bf Jet quenching}!
+\bigskip
+
+ {\bf Jets} are the observable objects that relate {\bf experimental observations} to {\bf theory predictions} in terms of quarks and gluons.
+\end{center}
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Jets in Quark-Gluon Plasma}
+
+
+\begin{frame}
+\frametitle{A Qualitative Description of Jets in the QGP}  
+
+  \begin{columns}[t]
+     \begin{column}{0.7\textwidth}
+{\small
+\begin{enumerate}
+\item {\bf Cone of hadrons} emerging from  collisions, consisted of partons, which  combine to form hadrons ({\bf hadronization}).\bigskip
+\item {\bf QGP dense medium} is also composed of partons.\bigskip
+\item {\bf Properties of the medium} can be studied through comparing jets in the presence of the QGP (AuAu) and in vacuum (p+p).\bigskip
+\item {\bf Jet reconstruction} allows measurements of  {\bf Jet fragmentation functions} and consequently {\bf the degree of quenching}.\bigskip
+\end{enumerate}
+}
+\end{column}
+\begin{column}{0.4\textwidth} \\
+\includegraphics[scale=0.28]{figs/group/direct.png}\\
+
+\includegraphics[scale=0.18]{figs/jets/jet.png}\\
+
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Geometric Definition of a Jet in the Detector}  
+
+
+\begin{block}{{\small \center{ Arbitrary Definition of a Cone of Hadrons after Hadronization}}}
+  $$\Delta R = \sqrt{\Delta \phi^2 +\Delta \eta^2}.$$
+\end{block}
+
+  \begin{columns}[t]
+     \begin{column}{0.5\textwidth}
+ \includegraphics[scale=0.15]{figs/jets/jetcms.png}\\
+{\tiny Adapted from CMS Event Display (2010).}
+ \end{column}
+\begin{column}{0.5\textwidth}
+ \includegraphics[scale=0.5]{figs/jets/rad.png}\\
+{\tiny (Cacciari, Salam, Soyez, Journal of High Energy Physics, 2008, 063.}
+    \end{column}
+\end{columns}
+\end{frame}
+
+
+
+
+\begin{frame}
+
+\frametitle{Jet Studies Issues in Heavy Ions Collision}  
+\begin{center}
+ \begin{block}{ Measured Jets}
+\begin{center}
+  $p_T$ (Measured Jet)  $\sim$   $p_T$(Jet) + Background + Fluctuations
+\end{center}
+\end{block}
+{\small
+\begin{enumerate}
+ \item {\bf Estimate the Background} and {\bf Subtract the Underlying events} (unknown/statistical fluctuations).
+\bigskip
+\item   {\bf Fake Jets}:
+\begin{center}
+ {\small {\it  Low $p_T$ or non-collision vertex track, incorrectly\\ reconstructed as a track with much higher $ p_T$.}} \\
+\end{center}
+\end{enumerate}
+}
+\end{center}
+{\tiny (arXiv: 0806.1499)}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{sPHENIX, The PHENIX Upgrade}
+\begin{frame}
+\frametitle{Current PHENIX Detector vs. sPHENIX}  
+
+\begin{columns}
+\begin{column}{0.5\textwidth}  
+\begin{center}
+   \fcolorbox{green}{green}{Current Detector}
+\end{center}
+
+\begin{itemize}
+{\small
+\item {\bf Small acceptance for Jets}: limited $\phi$,  $|\eta| <0.35$. \bigskip
+\item Low energy jets ($<20$ GeV) overwhelmed by {\bf soft background}, {\bf fake Jet}. \bigskip
+\item {\bf Need a real Jet detector}: larger rate and acceptance, hadronic calorimetry. \bigskip
+}
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth} 
+\begin{center}
+ \fcolorbox{white}{orange}{ sPHENIX}
+\end{center}
+\begin{itemize}
+{\small
+\item {\bf Full EMCal and HCal coverage} over $(\Delta \phi, \Delta \eta) = (2\pi, -1$ to $ 1)$. \bigskip
+
+\item {\bf Jets} in {\bf mid-rapidity}. \bigskip
+}
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Current PHENIX Detector}  
+\begin{center}
+   \fcolorbox{white}{white}{\includegraphics[scale=0.44]{figs/detector/detector.jpg}}
+ \end{center}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{sPHENIX, The PHENIX Upgrade}  
+\begin{center}
+   \fcolorbox{white}{white}{\includegraphics[scale=0.5]{figs/detector/detector.png}}
+ \end{center}
+\begin{center}
+\end{center}
+\end{frame}
+
+
+
+

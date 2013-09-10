@@ -1,0 +1,155 @@
+\section{Introduction}
+
+\begin{frame}
+  \center{\fcolorbox{green}{white}{\bf Introduction}}
+\begin{center} {\scriptsize
+{\bf Neutron Stars: What we know and what we do not know.}}
+The determination of the equation of state of cold, ultradense matter, such as that found in the interiors of neutron stars, has been one of the key science goals of high-energy astrophysics and nuclear physics. Low mass X-ray binaries that show thermonuclear X-ray bursts are ideal sources to put constraints on the equation of state of neutron star matter. Lack of independent distance measurements for most of these sources, however, prevents a systematic exploration of the mass and radius of these neutron stars, and hence the equation of state at such nuclear densities.
+We perform time resolved spectral analyses of the X-ray bursts observed from the low-mass X-ray binaries, and combine the results of this analysis with a novel distance measurement technique, based on near-IR observations of red clump stars along the line of sight and high
+energy resolution X-ray spectra of X-ray binaries. When combined, these two analyses enable independent measurements of the neutron star mass and radius.
+\end{center}
+\end{frame}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Physics of NS}
+
+\begin{frame}
+\frametitle{Physics of NS}  
+ % \begin{columns}[c]
+  %  \begin{column}{0.6\textwidth}  
+	{\scriptsize 
+	  \begin{itemize}
+	   \item More than 2000 NSs have been discovered in the Galaxy, from pulsating sources in radio to bright persistent sources in X-Rays.
+	   \item Stellar objects with most extreme densities and strongest magnetic fields.
+	   \item Strongest gravitational fields among all objects with a surface.
+	   \item NS Studies:
+	    \begin{itemize}
+	     \item Dynamics of binary systems,
+	     \item structure and energetics of radio pulses,
+	     \item spectra and variability of their high energy radiation,
+	     \item direct observations of the emission of NS surface.
+	    \end{itemize}
+	    \item NS Surfaces:
+	      \begin{itemize}
+	       \item often hidden from view,
+	       \item overpowered by non-thermal magnetospheric emission in isolated sources or accretion luminosity from binaries.
+	       \item however, evidences of surface emission from:
+		\begin{itemize}
+		 \item isolated cooling NS
+		 \item accreting sournces during quiescence,
+		 \item thermonuclear bursters,
+		 \item isolated NS powered by magnetic field.
+		\end{itemize}
+	      \end{itemize}
+	  \end{itemize}
+	}       
+  %  \end{column}
+   % \begin{column}{0.5\textwidth}    
+      % \fcolorbox{white}{white}{\includegraphics[scale=0.27]{figs/qgp/as_freed.png}}
+	%\center{\tiny{(Bethke (2009), [hep-ph] 0908.1135.)}}
+    %\end{column}
+  %\end{columns}    
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Physics of NS}  
+ % \begin{columns}[c]
+  %  \begin{column}{0.6\textwidth}  
+	{\scriptsize 
+	  \begin{itemize}
+	   \item Studying observed surface emission as a tool to understand NS requires detailed models of their atmospheres, which shape the spectrum and the pattern of radiation from the stellar crust and core:
+	   \begin{itemize}
+	    \item  many magnetic field strengths,
+	    \item compositions,
+	    \item temperatures,
+	    \item ionization states.
+	   \end{itemize}
+	   \item Observations of NS in quiescence and during the thermonuclear bursts led to first constraining measurements of radii, $9 km < R <12 km$ (eos >15km is disfavored by observations).
+	  \end{itemize}
+	}       
+  %  \end{column}
+   % \begin{column}{0.5\textwidth}    
+      % \fcolorbox{white}{white}{\includegraphics[scale=0.27]{figs/qgp/as_freed.png}}
+	%\center{\tiny{(Bethke (2009), [hep-ph] 0908.1135.)}}
+    %\end{column}
+  %\end{columns}    
+\end{frame}
+
+
+Time Resolved X-ray Spectroscopy
+Using archival RXTE observations of X-ray bursters, we identify thermonuclear X-ray
+bursts. For each identified burst, we extract time resolved 2.5−25.0 keV X-ray spectra using
+the ftool seextrct for the science event mode data and saextrct tool for the science array
+mode data from the all PCA layers. We extract spectra for 0.25, 0.5, 1 and 2 s time intervals,
+depending on the source count rate during the burst. We then model each of these X-ray
+spectra with a blackbody function and measure two physical parameters :
+
+Eddington Flux
+In each burst, we measure the Eddington flux at the
+so-called touchdown point where the photosphere
+returns to the neutron star surface following an
+expansion event. At this point, the flux is still at the
+local Eddington limit and the outermost layers are
+radiation pressure supported. Figure 1 shows the
+spread of the touchdown fluxes measured in
+individual bursts around the central value determined
+per source. As can be seen, for numerous sources, the
+variation around the mean is less than 10% of the
+central value, indicating that, for each source, there is
+an intrinsic and reproducible limit that is reached
+during the photospheric radius expansion bursts.
+
+
+apparent radius
+During the cooling tail of an X-ray burst the flux and temperature follow a tight,
+reproducible correlation throughout the cooling with a power-law index of −4,
+indicating a well-defined surface area of the neutron star. The second spectral quantity
+is the normalization measurements obtained during the cooling tails of the PRE bursts.
+Normalization in the XSPEC model bbodyrad, is related to the apparent blackbody
+radius and the distance through A = (Rapp / D10kpc )2 , where R is the apparent radius and
+D is the distance in units of 10 kpc. In order to find an average normalization
+measurement for each burst, we take the measurements only for selected time
+intervals after each burst started, when the apparent radius remained constant.
+
+Distance Measurements 
+(Güver, Ozel, Cabrera-Lavers, $\&$ Wroblewski 2008) 
+We use two different techniques to measure the distances to X-ray bursters; one is based 
+on the known distances to the globular clusters and the other is based on following how 
+the extinction varies with distance using red clump stars as our standard candles. 
+
+Red clump giants have long been proposed as standard candles (Paczynski & Stanek 1998).
+These are core helium-burning giants with a very narrow luminosity function that
+constitute a compact and well-defined clump in an Hertzsprung-Russell (HR) diagram,
+particularly in the infrared. Furthermore, as they are relatively luminous, they can be
+identified to large distances from the Sun.
+
+As a result, they are excellent infrared standard candles and can be used to study galactic
+distances and structure. When red clumps are identified at a range of distances, then the
+reddening at each distance can be measured. By comparing the reddening of the target
+source with the reddening ladder obtained by the red clump stars, the distance to the
+target can be measured.
+
+
+Bringing all together :
+(see e.g. Ozel, Güver, $\&$ Psaltis 2009)
+The observed spectroscopic quantities and the distance depend on the stellar mass and
+radius according to the relations,
+
+$$F_{TD} = \frac{GMc}{K_{es} D^2} \Big ( 1 - \frac{2GM}{Rc^2} \Big)^{1/2}$$
+and
+$$ A = \frac{R^2}{D^2f_c^4} \Big( 1 - \frac{2GM}{Rc^2} \Big )^{-1}$$
+
+where $A$ is the blackbody normalization, $F_{TD}$ is the touchdown flux and $k_{es}$ is the opacity to electron scatering, $f_c$ the color correction factor.
+
+In the absence of eerors, these two equatiosca can be solved for the mass and raidus of the neutron star.
+
+
+
+

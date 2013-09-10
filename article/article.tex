@@ -1,0 +1,153 @@
+% MARINA VON STEINKIRCH
+% http://mysbfiles.stonybrook.edu/~mvonsteinkir/
+
+\documentclass[10pt]{article} % Good sizes are usually 10pt or 11pt. You can use [10pt,twocolumn] to generate a document with two columns.
+\title{An Article in Latex for Physics}
+\author{ \texttt{ Marina von Steinkirch, steinkirch@gmail.com}\\
+	   \texttt{State University of New York at Stony Brook}}
+\date{\today} % Or type the date you want
+
+
+
+
+%%%%%%%%%%%%%%%   PACKAGES   %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amsmath}    % Package  for subequations
+\usepackage{graphicx}   % Package for figures
+\usepackage{verbatim}   % Package  for program listings
+\usepackage{color}      % Package to insert  color in text
+\usepackage{hyperref}   % Package  for hypertext links, external documents and URLs
+\usepackage{amssymb} % For mathematical constructions
+\usepackage{latexsym} % Package to generate mathematical symbols
+\usepackage{makeidx} % Package to generate an index in the end
+
+\makeindex % To Generate an index in the end
+
+
+
+
+
+%%%%%%%%%%%%%%%  BEGIN DOCUMENT   %%%%%%% %%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+\numberwithin{equation}{section} % To give the number of each equation related to the section
+\tableofcontents % to print the index
+
+\begin{abstract}
+A very brief introduction to articles in latex.
+\end{abstract}
+
+
+
+
+
+%%%%%%%%%%%%%%    BODY    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Some Basic Code} % You can write \section* to have it without numeration
+
+\subsection{Basic Commands}
+
+\begin{itemize}
+\item This is how you include footnotes \footnote{My footnote}
+\item To make a reference to some item in the bibliography, use \cite{steinkirch}. To make a reference to an equation, use \eqref{myequation}. To make a reference to a table or figure, use \ref{mytable}.
+\item If you want to index topics of your text, you can use \index{How to make an idex}.
+\end{itemize}
+
+\subsubsection*{Font Styles}
+
+
+\begin{itemize}
+\item To write in bold, {\bf writing in bold }
+\item To write in italic, {\it writing in bold }
+\item To write in typing letters, {\texttt typing letters}
+\item To write in small {\small small text}, or very small {\tiny tiny text}.
+\item To start a quotation \begin{quotation} Quoting mamma... \end{quotation}
+\item To use calligraph letters, use $\mathcal{L}$.
+\end{itemize}
+
+
+
+\subsection{Declaring Equations} % You can write \subsection* to have it without numeration
+
+You can include equations in the middle of the tex using $2\pi$.
+
+Equations in different lines without numerations can be written as 
+$$1.19 \times 10^{57}$$ 
+
+Equations with numeration can be declared as
+\begin{equation} % however, if you write equation*  you lose the numeration
+P \Big (  \frac{nRT}{P} \Big ) = 1.
+\label{myequation} % labeling equations to make references in the text
+\end{equation}
+
+or when you have an array of equations,
+\begin{eqnarray} % however, if you write eqnarray*  you lose the numeration
+P \Big (  \frac{nRT}{P} \Big ) &=& 1 + k,\\  % The symbol & makes the indentation 
+&=& 0. 
+\end{eqnarray}
+
+Multi-line equations can be written as
+\begin{equation}
+\label{myequation_in_many_lines}
+\begin{split}
+a& = b+c\\
+& \quad + d - e\\
+& =1
+\end{split}
+\end{equation}
+
+
+
+\subsection{Including Tables, Lists, and Figures} 
+
+
+This is the code for including tables:
+\begin{table}[htdp]
+\begin{center}
+\begin{tabular}{c|c} % This parameter says how many columns and their respective lines, another example {|cccc|}
+\hline % Vertical lines
+Testing 1 & Testing 2\\
+Testing 4 & Testing 3 \\
+\hline % Vertical lines
+\end{tabular}
+\end{center}
+\caption{Data for the Problem.} 
+\label{mytable}
+\end{table}
+
+
+This is the code for including lists:
+\begin{itemize}
+\item Item one
+\item Item two
+\end{itemize}
+
+This is the code for including enumerated lists:
+\begin{enumerate}
+\item First Item
+\item Second Item
+\end{enumerate}
+
+This is the code for including figures:
+\begin{figure}[htbp]
+\begin{center}
+%\includegraphics[scale=0.5]{fig.jpg} % you can set the scale or length and width
+\label{myfigure}
+\end{center}
+\end{figure}
+
+\section{The End of The Document}
+%%%%%%%%%%%%%%%%%%%%%%%%%  END OF DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{thebibliography}{2} % Declaration of bibliography
+\bibitem{atiyah} ATIYAH,  The Geometry and Physics of Knots,1990.
+\bibitem{steinkirch} Marina Von Steinkirch,  Templates in Latex, \url{http://mysbfiles.stonybrook.edu/~mvonsteinkir}.
+\end{thebibliography}
+
+\printindex % Print the index of words that you had indexed by \index{my-indexation}.
+
+\end{document}
+

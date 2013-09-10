@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{{\bf QGP at PHENIX}: A History of Success}
+
+\begin{frame}
+  \center{\fcolorbox{green}{white}{{\bf QGP at PHENIX}: A History of Success}}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Transition from Hadron Gas to Plasma State}
+\begin{frame}
+\frametitle{Transition from Hadron Gas to Plasma State}  
+
+\begin{center}
+{\small
+           \fcolorbox{white}{white}{\includegraphics[scale=0.36]{figs/lattice.png}}
+ \fcolorbox{white}{green}{ Bjorken energy($\epsilon \times \tau$) as function of centrality  vs components\footnote{{\tiny PHENIX Collaboration, June 23, 2005.}}.}}
+ \end{center}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Elliptic Flow}
+\begin{frame}
+\frametitle{Collectivity of the Matter \footnote{\tiny{Bethke (2009), [nuc-ex] 0608033.}}}
+
+
+\begin{block}{Matter Collectivity measured by the collective flow}
+{\small
+ \begin{equation*}
+  \nu_2  = \langle \frac{p_x^2- p_y^2}{p_T^2}\rangle.
+ \end{equation*}
+\begin{center}
+\fcolorbox{white}{white}{\includegraphics[scale=0.2]{figs/elli.png}} \\
+\bigskip
+{\scriptsize Azimuthal p-space aniosotropy of particle emission for non-central collisions.}
+\end{center}
+}
+\end{block}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Elliptic Flow }
+
+\begin{frame}
+\frametitle{Evidence of Deconfinement}  
+\begin{center}
+{\small
+           \fcolorbox{white}{white}{\includegraphics[scale=0.36]{figs/deconf.png}}
+\fcolorbox{white}{green}{$\nu_2$ as a function of $p_T, E_T$ scaled by the number of constituent quarks, $n_q$\footnote{{\tiny A. Adare, et al. (PHENIX), Phys. Rev. Lett. 98, 162301 (2007).}.}}}
+ \end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Elliptic Flow}  
+\begin{center}
+{\small
+           \fcolorbox{white}{white}{\includegraphics[scale=0.36]{figs/v2.png}}
+\fcolorbox{white}{green}{$\nu_2$ vs. $p_T$ for charged hadrons compared to relativistic hydrodynamic.\footnote{{\tiny PHENIX Collaboration, July 02, 2005.}}}}
+ \end{center}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Suppressed $\pi_0$ Production vs. $p+p$}
+\begin{frame}
+\frametitle{Suppressed $\pi_0$ Production vs. $p+p$}  
+
+\begin{center}
+   \fcolorbox{white}{white}{\includegraphics[scale=0.32]{figs/suppres.png}}
+{\small
+\fcolorbox{white}{orange}{$\pi_0$ yield in central collisions is much smaller than peripheral.\footnote{\tiny{Phys. Rev. Lett. 91, 072301 (2003).}}}
+}
+ \end{center}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{High $p_T$ Suppression (Quenching)}
+\begin{frame}
+\frametitle{High $p_T$ Suppression (Quenching)}  
+
+\begin{center}
+\fcolorbox{white}{white}{\includegraphics[scale=0.28]{figs/r.png}}
+{\small
+\fcolorbox{white}{orange}{ Nuclear mod. factor ($R_{AA}$) for $\pi_0$, $\eta$ compared to direct $\gamma$ (central 200 GeV).
+ \footnote{{\tiny PHENIX Collaboration, July 05, 2005.} }}
+}
+\end{center}
+\end{frame}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Open Questions}
+\begin{frame}
+\frametitle{Open Questions}
+
+{\scriptsize
+\begin{itemize}
+\item Are {\bf quarks strongly coupled} to the QGP at {\bf all} scales?
+\bigskip
+\item Mechanisms for  {\bf parton-QGP interaction}? QGP response?
+\bigskip
+\item Nature of {\bf color charge} in large nuclei? 
+\bigskip
+\item Role of {\bf gluon saturation}  in nucleus-nucleus collisions?
+\bigskip
+\item Studies on {\bf hard scattering processes and jet quenching}:
+\bigskip
+\begin{itemize}
+{\scriptsize
+\item How does a high energy colored parton interact with the QGP?
+\bigskip
+\item How is the final-state parton shower initiated by a hard scattering process modified by the presence of the QGP 
+}
+\end{itemize}
+\end{itemize}
+}
+\begin{center}
+\fcolorbox{white}{green}{\large{Jets!}}
+\end{center}
+\end{frame}
+
+

@@ -1,0 +1,139 @@
+% steinkirch @ gmail 
+
+\documentclass[11pt]{book}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%	Latex Packages  %
+%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}   
+\usepackage{graphicx}  
+\usepackage{verbatim}   
+\usepackage{color}    
+\usepackage{hyperref}  
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{amsthm}
+\usepackage{makeidx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{titlepic}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+%%%%%%%%%%%%%%%%%%
+%	For coding!  %
+%%%%%%%%%%%%%%%%%%
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%	Custom Cmd/Env  %
+%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\bo}{$\mathcal{O}$} 
+
+
+\newenvironment{acknowledge}
+ {\clearpage           % we want a new page
+   \thispagestyle{empty}% no header and footer
+   \vspace*{\stretch{1}}% some space at the top 
+   \fontsize{10}{12}
+   \color{MidnightBlue}
+   \center
+
+  }
+  {\par % end the paragraph
+   \vspace{\stretch{2}} % space at bottom is three times that at the top          
+  }
+
+\newenvironment{dedication}
+  {\clearpage           % we want a new page
+   \thispagestyle{empty}% no header and footer
+   \vspace*{\stretch{1}}% some space at the top 
+   \itshape             % the text is in italics
+   \raggedleft          % flush to the right margin
+   \fontsize{16}{20}
+   \color{RedOrange}
+  }
+
+  {\par % end the paragraph
+   \vspace{\stretch{3}} % space at bottom is three times that at the top
+   \clearpage           % finish off the page
+  }
+  
+    
+    
+
+%%%%%%%%%%%%%%%%%%%%%
+%	   Title        %
+%%%%%%%%%%%%%%%%%%%%%
+\title{ \huge  \bfseries \textcolor{RedViolet}{ Python $\heartsuit$  Algorithms $\heartsuit$  Google}}
+
+\author{ \fontsize{16}{25}\selectfont  \texttt{Mari von Steinkirch, steinkirch@gmail.com}\\
+	      \fontsize{16}{25} \texttt{University of New York at Stony Brook}}
+
+\titlepic{\includegraphics[width=\textwidth]{figures/sale.png}}
+
+\date{ \today} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%	   Begin Doc        %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeindex
+
+\begin{document}
+
+\maketitle
+\numberwithin{equation}{section}
+\include{pref}
+\include{intro}
+\tableofcontents 
+\part{Python}
+%\include{python}
+\part{Algorithms}
+%\include{algorithms}
+%\include{problems}
+\printindex
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%	   Biblio           %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{thebibliography}{2}
+
+\bibitem{alg-py} {\it Mastering Basic Algorithms in the Python Language}, Magnus Lie Hetland, 2010  
+
+\bibitem{2} {\it Programming in Python 3: A Complete Introduction to the Python 3.1 Language}, Mark Summerfield, 2011
+
+\bibitem{3} {\it Learn Python The Hard Way}, Zed A. Shaw, 2010
+
+\bibitem{4} {\it Programming Perls}, Jon Bentley, 1986
+
+\bibitem{5} {\it Cracking the Coding Interview}, Gayle Laakmann McDowell, 2013
+
+\end{thebibliography}
+
+\end{document}
+
