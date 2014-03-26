@@ -1,0 +1,198 @@
+@PREAMBLE{"\newcommand{\noopsort}[1]{}"}
+
+
+
+@ARTICLE{huygens,
+  author = {{Huygens},  C. },
+  title = {{Traitė de la Lumiere}},
+  year = {1690},
+
+}
+
+@ARTICLE{maxwell,
+  author = {{Maxwell},  J. C. },
+  title = {{On physical lines of force}},
+  year = {1861},
+  eprint = {},
+}
+
+
+@ARTICLE{max,
+  author = {{Maxwell},  L. },
+  title = {{On the Dynamical Theory of Gases}},
+  year = {1859},
+  eprint = {Phil. Mag. 19:434-36, 1860; in: Scientific Letters, Vol. I. (pg. 616)},
+}
+
+
+@ARTICLE{hertz,
+  author = {{Hertz},  H.R.},
+  title = {{Ueber die Ausbreitungsgeschwindigkeit der electrodynamischen Wirkungen}},
+  year = {1888},
+  eprint = {Annalen der Physik, vol. 270, no. 7, p. 551–569, May 1888. },
+}
+
+@ARTICLE{wien,
+  author = {{Wien},  W. },
+  title = {{Ueber die Fragen, welche die translatorische Bewegung des Lichtäthers betreffen}},
+  year = {1898},
+  eprint = {Annalen der Physik 301 (3): I–XVIII},
+}
+
+
+@ARTICLE{planck,
+  author = {{Planck},  M. },
+  title = {{On the Law of Distribution of Energy in the Normal Spectrum}},
+  year = {1901},
+  eprint = {Annalen der Physik, vol. 4, p. 553 ff.},
+}
+
+@ARTICLE{einstein,
+  author = {{Einstein},  A. },
+  title = {{Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
+  year = {1905},
+  eprint = {Annalen der Physik 17 (6): 132–148},
+}
+
+@ARTICLE{ein,
+  author = {{Einstein},  A. },
+  title = {{Zur Elektrodynamik bewegter Körper}},
+  year = {1905},
+  eprint = {Annalen der Physik, Bern 1905},
+}
+
+
+@ARTICLE{compton,
+  author = {{Compton},  A.H. },
+  title = {{A Quantum Theory of the Scattering of X-Rays by Light Elements}},
+  year = {1923},
+  eprint = {Physical Review 21 (5): 483–502},
+}
+
+@ARTICLE{broglie,
+  author = {{deBroglie},  L. },
+  title = {{Recherches sur la Theorie des Quanta}},
+  year = {1924},
+  eprint = {},
+}
+
+@ARTICLE{stefan,
+  author = {{Stefan},  J. },
+  title = {{Über die Beziehung zwischen der Wärmestrahlung und der Temperatur, in: Sitzungsberichte der mathematisch}},
+  year = {1879},
+  eprint = {Akademie der Wissenschaften, Bd. 79 (Wien 1879), S. 391-428},
+}
+
+@ARTICLE{boltzmann,
+  author = {{Boltzmann},  L. },
+  title = {{Ableitung des Stefan'schen Gesetzes, betreffend die Abhängigkeit der Wärmestrahlung von der Temperatur aus der electromagnetischen Lichttheorie}},
+  year = {1884},
+  eprint = {Annalen der Physik und Chemie, Bd. 22 (1884), S. 291-294},
+}
+
+
+
+@ARTICLE{bol,
+  author = {{Boltzmann},  L. },
+  title = {{Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen}},
+  year = {1872},
+  eprint = {Wiener Berichte, 66, 275-370, (Boltzmann 1909), I, 316-402},
+}
+
+
+@ARTICLE{saha,
+  author = {{Saha}, M. N. },
+  title = {{On a Physical Theory of Stellar Spectra}},
+  year = {1921},
+  eprint = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences 99 (697): 135.},
+}
+
+
+@ARTICLE{jim-review,
+  author = {{Lattimer}, J. },
+  title = {{jims best review about eos}},
+  year = {?},
+  eprint = {?},
+}
+
+
+@ARTICLE{carroll,
+  author = {{Carroll}, B.W.},
+  title = {{An Introduction to modern astrophysics}},
+  year = {1996},
+  eprint = {Addison-Wesley Publishing Compamy, Inc.},
+}
+
+
+@ARTICLE{potekhin,
+  author = {{Potekhin}, A.Y.},
+  title = {{Atmospheres and Radiating Surfaces of Neutron Stars}},
+  year = {2014},
+  eprint = {arXiv:1403.0074v1},
+}
+
+
+@ARTICLE{chandra,
+  author = {{Chandrasekhar}, S., {Fermi}, E.},
+  title = {{Problems of Gravitational Stability in the Presence of a Magnetic Field}},
+  year = {1953},
+  eprint = {{\it Astrophys}. J. 118 116 (1953)},
+}
+
+
+@ARTICLE{StrohmayerEtAl2003a,
+  author = {{Strohmayer}, T.},
+  title = {{New Views of Thermonuclear Bursts}},
+  year = {2003},
+  eprint = {arXiv:0301544v2},
+}
+
+
+@ARTICLE{SchwarzschildEtAl1965a,
+  author = {{Schwarzschild}, },
+  title = {{}},
+  year = {1965},
+}
+
+
+@ARTICLE{HansenEtAl1975a,
+  author = {{Hansen}, },
+  title = {{}},
+  year = {1975},
+}
+
+
+@ARTICLE{GrindlayEtAl1976a,
+  author = {{Grindlay}, },
+  title = {{}},
+  year = {1976},
+}
+
+
+@ARTICLE{BelianEtAl1976a,
+  author = {{Belian}, },
+  title = {{}},
+  year = {1976},
+}
+
+
+@ARTICLE{WoosleyEtAl1976a,
+  author = {{Woosley}, },
+  title = {{}},
+  year = {1976},
+  eprint = {},
+}
+
+
+@ARTICLE{kramers,
+  author = {{Kramers}, H.A. },
+  title = {{On the theory of X-ray absorption and of the continuous X-ray spectrum}},
+  year = {1923},
+  eprint = {Philosophical Magazine 46: 836},
+}
+
+
+
+}
+
+

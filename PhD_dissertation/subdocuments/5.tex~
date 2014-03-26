@@ -1,0 +1,57 @@
+
+
+\section{X-Ray Binary Star}
+
+{\it X-ray binary stars} (XRBS) are class of binary stars that are luminous in X-rays. The X-rays are produced by matter falling from one component, called the donor (usually a relatively normal star) to the other component, called the accretor, which is compact: a white dwarf, neutron star, or black hole. T
+
+\subsection{Classification}
+X-ray binaries are further subdivided into several (sometimes overlapping) subclasses, that perhaps reflect the underlying physics better. Note that the classification by mass (high, intermediate, low) refers to the optically visible donor, not to the compact X-ray emitting accretor.
+
+    Low-mass X-ray binaries (LMXBs)
+        Soft X-ray transients (SXTs)
+        Symbiotic X-ray binaries
+        Super soft X-ray sources or Super soft sources[3] (SSSs),(SSXB)
+    Intermediate-mass X-ray binaries (IMXBs)
+    High-mass X-ray binaries (HMXBs)
+        Be/X-ray binaries (BeXRBs)
+        Supergiant X-ray binaries (SGXBs)
+        Supergiant Fast X-ray Transients (SFXTs)[4][5]
+    Others
+        X-ray bursters
+        X-ray pulsars
+        Microquasars (radio-jet X-ray binaries that can house either a neutron star or a black hole)
+
+
+
+\subsection{X-Ray Bursters}
+
+Some XRBS that exhibiting periodic and rapid increases in luminosity peaked in the X-ray range are classified as {\it X-ray bursters} (XRB). These astrophysical systems are composed of an accreting compact object, typically a neutron star or occasionally a black hole, and a companion 'donor' star; the mass of the donor star is used to categorize the system as either a high mass (above 10 solar masses) or low mass (less than 1 solar mass) X-ray binary, abbreviated as HMXB and LMXB, respectively.
+
+
+
+
+
+\section{Physics of Bursts}
+
+When a star in a binary fills its Roche lobe (either due to being very close to its companion or having a relatively large radius), it begins to lose matter, which streams towards the neutron star. The partner star may also undergo mass loss by exceeding its Eddington luminosity, or through strong stellar winds, and some of this material may become gravitationally attracted to the neutron star. In the circumstance of a short orbital period and a massive partner star, both of these processes may contribute to the transfer of material from the companion to the neutron star. In both cases, the falling material originates from the surface layers of the partner star and is rich in hydrogen and helium. Because compact stars have high gravitational fields, the material falls with a high velocity towards the neutron star, usually colliding with other accreted material en route, forming an accretion disk. In an X-ray burster, this material accretes onto the surface of the neutron star as a dense layer of electron degenerate gas, another result of the extremely high gravitational field. Degenerate matter does not follow the ideal gas law, and so changes in temperature do not lead to notable changes in pressure. After enough of this material accumulates on the surface of the neutron star, thermal instabilities set off exothermic nuclear fusion reactions, which causes an increase in temperature (greater than 1 x 109 kelvins), eventually giving rise to a runaway thermonuclear explosion. This explosive stellar nucleosynthesis begins with the hot CNO cycle which quickly yields to the rp-process. Theory suggests that in at least some cases the hydrogen in the accreting material burns continuously, and that it is the accumulation of helium that causes the bursts.
+Observation of bursts
+
+Because an enormous amount of energy is released in a short period of time, much of the energy is released as high energy photons in accordance with the theory of black body radiation, in this case X-rays. This release of energy may be observed as in increase in the star's luminosity with a space telescope, and is called an X-ray burst. These bursts cannot be observed on Earth's surface because our atmosphere is opaque to X-rays. Most X-ray bursting stars exhibit recurrent bursts because the bursts are not powerful enough to disrupt the stability or orbit of either star, and the whole process may begin again. Most X-ray bursters have irregular periods, which can be on the order of a few hours to many months, depending on factors such as the masses of the stars, the distance between the two stars, the rate of accretion, and the exact composition of the accreted material. Observationally, X-ray bursts are put into two distinct categories, labeled Type I and Type II. A Type I X-ray burst has a sharp rise followed by a slow and gradual decline of the luminosity profile. A Type II X-ray burst exhibits a quick pulse shape and may have many fast bursts separated by minutes. However, only from two sources have Type II X-ray bursts been observed, and so most X-ray bursts are assumed to be of Type I.
+Applications to astronomy
+
+Luminous X-ray bursts can be considered standard candles, since the mass of neutron star determines the luminosity of the burst. Therefore, comparing the observed X-ray flux to the predicted value yields relatively accurate distances. Observations of X-ray bursts allow also the determination of the radius of the neutron star.
+
+
+\section{Low-mass X-ray binary}
+
+A low-mass X-ray binary (LMXB) is a binary star where one of the components is either a black hole or neutron star. The other, donor, component usually fills its Roche lobe and therefore transfers mass to the compact star. The donor is less massive than the compact object, and can be on the main sequence, a degenerate dwarf (white dwarf), or an evolved star (red giant). Approximately one hundred LMXBs have been detected in the Milky Way, and of these, thirteen LMXBs have been discovered in globular clusters. New data from the Chandra X-ray Observatory has revealed LMXBs in many distant galaxies.
+
+A typical low-mass X-ray binary emits almost all of its radiation in X-rays, and typically less than one percent in visible light, so they are among the brightest objects in the X-ray sky, but relatively faint in visible light. The apparent magnitude is typically around 15 to 20. The brightest part of the system is the accretion disk around the compact object. The orbital periods of LMXBs range from ten minutes to hundreds of days.
+
+
+
+\section{High-mass X-ray binary}
+
+A high-mass X-ray binary (HMXB) is a binary star system that is strong in X rays, and in which the normal stellar component is a massive star: usually an O or B star, a Be star, or a blue supergiant. The compact, X-ray emitting, component is generally a neutron star, black hole, or possibly a white dwarf. A fraction of the stellar wind of the massive normal star is captured by the compact object, and produces X-rays as it falls onto the compact object.
+
+In a high-mass X-ray binary, the massive star dominates the emission of optical light, while the compact object is the dominant source of X-rays. The massive stars are very luminous and therefore easily detected. One of the most famous high-mass X-ray binaries is Cygnus X-1, which was the first identified black hole candidate. Other HMXBs include Vela X-1 (not to be confused with Vela X), and 4U 1700-37.

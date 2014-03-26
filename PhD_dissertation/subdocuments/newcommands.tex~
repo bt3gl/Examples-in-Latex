@@ -1,0 +1,181 @@
+%==============================================================================
+% references ------------------------------------------------------------------
+% \...ref are for referring to an internal object (let LaTeX handle numbering)
+% \...ext are for referring to an external object (numbering known a priori)
+
+% equations
+\newcommand{\eqnref}[1]{Equation~(\ref{#1})}
+\newcommand{\eqnext}[1]{Equation~(#1)}
+
+% for consistency of style when referencing multiple equations: e.g., 
+%  "\eqnsref{eqn:firstEq}~--~\eqnnum{eqn:lastEq}" or
+%  "\eqnsref{eqn:firstEq}, \eqnnum{eqn:secondEq}, and \eqnnum{eqn:thirdEq}"
+\newcommand{\eqnsref}[1]{Equations~(\ref{#1})}
+\newcommand{\eqnnum}[1]{(\ref{#1})}
+
+% tables
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\tabext}[1]{Table~#1}
+
+% figures
+\newcommand{\figref}[1]{Figure~\ref{#1}}
+\newcommand{\figext}[1]{Figure~#1}
+
+% sections
+\newcommand{\secref}[1]{Section~\ref{#1}}
+\newcommand{\secext}[1]{Section~#1}
+
+% chapters
+\newcommand{\chpref}[1]{Chapter~\ref{#1}}
+\newcommand{\chpext}[1]{Chapter~#1}
+
+% as above with the equations, these are for consistency of style
+\newcommand{\chpsref}[1]{Chapters~\ref{#1}}
+\newcommand{\chpnum}[1]{\ref{#1}}
+
+% parts
+\newcommand{\prtref}[1]{Part~\ref{#1}}
+\newcommand{\prtext}[1]{Part~#1}
+
+
+%==============================================================================
+% new environments ------------------------------------------------------------
+
+% define new symbollist for List of Abbreviations and List of Symbols
+% using stuff from the mdwlist in the mdwtools package
+\newenvironment{symbollist}[1]
+{%
+   \begin{basedescript}{%
+      \desclabelstyle{\nextlinelabel}%
+      \desclabelwidth{#1}%
+   }%
+}
+{\end{basedescript}}
+
+% list sizes
+\newcommand{\subhead}[1]{\noindent\textbf{\large #1}}
+\newcommand{\abbrsize}{0.75in}
+\newcommand{\symbsize}{0.75in}
+\newcommand{\symbsep}{12pt}
+
+
+%==============================================================================
+% typesetting names -----------------------------------------------------------
+
+% names for computer programs
+\newcommand{\code}[1]{\texttt{#1}\xspace}    % monospaced font
+%\newcommand{\code}[1]{\textsc{#1}\xspace}   % small caps font
+
+% names for books
+\newcommand{\booktitle}[1]{\emph{#1}\xspace}       % italicized
+%\newcommand{\booktitle}[1]{\underline{#1}\xspace} % underlined
+
+
+%==============================================================================
+% nuclides --------------------------------------------------------------------
+
+\newcommand{\iso}[2]{\ensuremath{^{#2}{\rm #1}}\xspace}     % general isotope
+\newcommand{\Ni}[1][56]{\ensuremath{^{#1}{\rm Ni}}\xspace}  % defaults to Ni-56
+
+\newcommand{\Nsp}{\ensuremath{N_{\rm sp}}\xspace}  % number of species
+
+\newcommand{\allY}{\ensuremath{Y_{1..\Nsp}}\xspace}  % all molar abundances
+
+
+%==============================================================================
+% units -----------------------------------------------------------------------
+% note: to put in a non-breaking half-space between numbers and units, use math
+%  mode to forbid the break: $15\,\mathrm{\Msol}$
+
+\newcommand{\Msol}{\ensuremath{M_\odot}\xspace}
+
+
+%==============================================================================
+% colors ----------------------------------------------------------------------
+
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+
+
+%==============================================================================
+% variant forms of L ----------------------------------------------------------
+
+%\ell           % script lowercase L
+%\mathscr{L}    % script uppercase L
+%\mathcal{L}    % typically used for Lagrangians
+
+
+%==============================================================================
+% assorted terms --------------------------------------------------------------
+
+% type Ia supernova(e): some prefer a space, some not, so to avoid issues...
+\newcommand{\SNeIa}{SNeIa\xspace}
+\newcommand{\SNIa}{SNIa\xspace}
+%\newcommand{\SNeIa}{SNe~Ia\xspace}
+%\newcommand{\SNIa}{SN~Ia\xspace}
+
+% Chandrasekhar mass
+\newcommand{\Mch}{\ensuremath{M_{\rm Ch}}\xspace}
+
+% zero-age main-sequence mass
+\newcommand{\Mzams}{\ensuremath{M_{\rm ZAMS}}\xspace}
+
+% radius of the base of the accreted layer
+\newcommand{\rbase}{\ensuremath{r_{\rm base}}\xspace}
+
+% radius of the cut point for transition smoothing
+\newcommand{\rcut}{\ensuremath{r_{\rm cut}}\xspace}
+
+% Mach number
+\newcommand{\mach}{\ensuremath{\mathcal{M}}\xspace}
+
+
+%==============================================================================
+% math shorthands -------------------------------------------------------------
+
+\newcommand{\ee}[1]{\ensuremath{\! \times \! 10^{#1}}}   % exponential notation
+
+% bar (for averages)
+\newcommand{\overbar}[1]{\overline{#1}}   % long bar (flexible length)
+%\newcommand{\overbar}[1]{\bar{#1}}       % short bar (specific length)
+
+% vector notation
+\newcommand{\vvec}[1]{\mathbf{#1}}  % bold face
+%\newcommand{\vvec}[1]{\vec{#1}}    % overarrow
+%\newcommand{\vvec}[1]{\overrightarrow{#1}}  % this form has problems with
+   % spacing (e.g. \vvec{e}_r ends up with extra space between the e and the r)
+
+% del is a vector nabla, and I get sick of typing \vvec{\nabla} all the time,
+% especially since there's a name for the combined symbol anyway
+\newcommand{\del}{\vvec{\nabla}}
+
+% Define \flexfrac to work differently in inline or display modes (with an
+% optional argument to choose explicitly).  In inline mode, \flexfrac will
+% display as "numerator/denominator"; in display mode, \flexfrac will use a
+% fraction (\frac) to display the numerator above the denominator.  Calling
+% \flexfrac[inline]{N}{D} will force the N/D format even if you are currently
+% in display mode.  Similarly, \flexfrac[display]{N}{D} will force the
+% vertically-stacked fraction even if you are currently in inline mode.  The
+% xkeyval package is necessary for this to work.  This bit of code is modified
+% from: http://tex.stackexchange.com/questions/22076
+% The intention of \flexfrac is for implementation of \pder, \Lder, and \deriv.
+\makeatletter
+\define@choicekey{flexfrac}{style}[\der@val\der@nr]{auto,display,inline}{%
+   \ifcase\der@nr
+      \let\flexfrac@do\flexfrac@choose
+   \or
+      \let\flexfrac@do\flexfrac@display
+   \or
+      \let\flexfrac@do\flexfrac@inline
+   \fi }
+\newcommand\flexfrac[1][auto]{\setkeys{flexfrac}{style=#1}\flexfrac@do}
+\def\flexfrac@choose#1#2{%
+   \mathchoice{\flexfrac@display{#1}{#2}}{\flexfrac@inline{#1}{#2}}
+      {\flexfrac@inline{#1}{#2}}{\flexfrac@inline{#1}{#2}} }
+\newcommand{\flexfrac@display}[2]{\frac{#1}{#2}}
+\newcommand{\flexfrac@inline}[2]{#1/#2}
+\makeatother
+
+% derivatives
+\newcommand{\deriv}[3][auto]{\flexfrac{d #2}{d #3}}   % total derivative  
+\newcommand{\pder}[3][auto]{\flexfrac{\partial #2}{\partial #3}}  % partial
+\newcommand{\Lder}[3][auto]{\flexfrac{D #2}{D #3}}    % Lagrangian derivative

@@ -1,0 +1,107 @@
+\newcommand{\noopsort}[1]{}
+\begin{thebibliography}{{Ein}05b}
+
+\bibitem[{Bol}72]{bol}
+L.~{Boltzmann}.
+\newblock {Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen}.
+\newblock 1872.
+
+\bibitem[{Bol}84]{boltzmann}
+L.~{Boltzmann}.
+\newblock {Ableitung des Stefan'schen Gesetzes, betreffend die Abhängigkeit
+  der Wärmestrahlung von der Temperatur aus der electromagnetischen
+  Lichttheorie}.
+\newblock 1884.
+
+\bibitem[{Car}96]{carroll}
+B.W. {Carroll}.
+\newblock {An Introduction to modern astrophysics}.
+\newblock 1996.
+
+\bibitem[{Cha}53]{chandra}
+{Fermi}~E. {Chandrasekhar}, S.
+\newblock {Problems of Gravitational Stability in the Presence of a Magnetic
+  Field}.
+\newblock 1953.
+
+\bibitem[{Com}23]{compton}
+A.H. {Compton}.
+\newblock {A Quantum Theory of the Scattering of X-Rays by Light Elements}.
+\newblock 1923.
+
+\bibitem[{deB}24]{broglie}
+L.~{deBroglie}.
+\newblock {Recherches sur la Theorie des Quanta}.
+\newblock 1924.
+
+\bibitem[{Ein}05a]{ein}
+A.~{Einstein}.
+\newblock {Zur Elektrodynamik bewegter Körper}.
+\newblock 1905.
+
+\bibitem[{Ein}05b]{einstein}
+A.~{Einstein}.
+\newblock {Über einen die Erzeugung und Verwandlung des Lichtes betreffenden
+  heuristischen Gesichtspunkt}.
+\newblock 1905.
+
+\bibitem[{Her}88]{hertz}
+H.R. {Hertz}.
+\newblock {Ueber die Ausbreitungsgeschwindigkeit der electrodynamischen
+  Wirkungen}.
+\newblock 1888.
+
+\bibitem[{Huy}90]{huygens}
+C.~{Huygens}.
+\newblock {Traitė de la Lumiere}.
+\newblock 1690.
+
+\bibitem[{Kra}23]{kramers}
+H.A. {Kramers}.
+\newblock {On the theory of X-ray absorption and of the continuous X-ray
+  spectrum}.
+\newblock 1923.
+
+\bibitem[{Lat}]{jim-review}
+J.~{Lattimer}.
+\newblock {jims best review about eos}.
+\newblock ?
+
+\bibitem[{Max}59]{max}
+L.~{Maxwell}.
+\newblock {On the Dynamical Theory of Gases}.
+\newblock 1859.
+
+\bibitem[{Max}61]{maxwell}
+J.~C. {Maxwell}.
+\newblock {On physical lines of force}.
+\newblock 1861.
+
+\bibitem[{Pla}01]{planck}
+M.~{Planck}.
+\newblock {On the Law of Distribution of Energy in the Normal Spectrum}.
+\newblock 1901.
+
+\bibitem[{Pot}14]{potekhin}
+A.Y. {Potekhin}.
+\newblock {Atmospheres and Radiating Surfaces of Neutron Stars}.
+\newblock 2014.
+
+\bibitem[{Sah}21]{saha}
+M.~N. {Saha}.
+\newblock {On a Physical Theory of Stellar Spectra}.
+\newblock 1921.
+
+\bibitem[{Ste}79]{stefan}
+J.~{Stefan}.
+\newblock {Über die Beziehung zwischen der Wärmestrahlung und der Temperatur,
+  in: Sitzungsberichte der mathematisch}.
+\newblock 1879.
+
+\bibitem[{Wie}98]{wien}
+W.~{Wien}.
+\newblock {Ueber die Fragen, welche die translatorische Bewegung des
+  Lichtäthers betreffen}.
+\newblock 1898.
+
+\end{thebibliography}

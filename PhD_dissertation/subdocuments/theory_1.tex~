@@ -1,0 +1,26 @@
+\chapter{mmm}
+\label{mmmm}
+
+%\begin{figure}
+ %  \centering
+  % \includegraphics[angle=270, width=0.70\columnwidth]
+   %   {figures/nova_profile_dissertation.eps}
+   %\caption[Sample CN Initial Model]{\label{fig:nova_profile_example}This.}
+%\end{figure}
+
+%==============================================================================
+\section{mmm}
+\label{mmmm}
+
+
+%\begin{subequations}
+ %  \begin{align}
+  %    P^{\rm c}
+   %      & = P^{\rm p} - \Delta r \left(
+    %         \frac{\rho^{\rm c} + \rho^{\rm p}}{2} \right) g
+     %    \label{eqn:integration_HSE} \\
+      %P^{\rm c}
+       %  & = P_{\rm EoS} (\rho^{\rm c}, T^{\rm c}, X_k^{\rm c}),
+        % \label{eqn:integration_EoS}
+   %\end{align}
+%\end{subequations}

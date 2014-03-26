@@ -1,0 +1,215 @@
+\documentclass[phd,bottom,nosig]{styles/usbthesis}
+\bibliographystyle{alpha}
+
+\usepackage{afterpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{bm}
+\usepackage{color}
+\usepackage{graphicx}  
+\usepackage{epstopdf}
+\usepackage{hhline}
+\usepackage[linktocpage=true]{hyperref}
+\usepackage{indentfirst} 
+\usepackage{lipsum}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{mdwlist}
+\usepackage{multirow}
+\usepackage[authoryear]{natbib}
+\usepackage{pdflscape}
+\usepackage[final]{pdfpages}
+\usepackage{rotating}
+\usepackage{setspace}
+\usepackage{subfigure}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{xkeyval}
+\usepackage{xspace}
+\usepackage{styles/aasjournals}
+\usepackage{makeidx}
+\usepackage{marginnote}
+
+
+
+%==============================================================================
+
+\input{subdocuments/newcommands.tex}
+
+%==============================================================================
+
+\setlength{\skip\footins}{20pt} 
+\setlength{\footnotesep}{18pt}
+\renewcommand{\footnoterule}{%
+  \kern -3pt
+  \hrule width 2in
+  \kern 2.6pt
+  \vspace{-7pt}
+}
+
+
+%==============================================================================
+% chapter title formatting options
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{35pt}{40pt}
+
+%==============================================================================
+% hyperref options
+% set some options for the PDF file that will be created
+\hypersetup{
+   pdftitle=Theoretical and Computational Aspects of Neutron Stars and X-Ray Bursts Atmospheres
+   pdfauthor=Marina Wahl
+   pdfsubject=PhD Dissertation,
+   pdfcreator=Marina Wahl,
+   pdfdisplaydoctitle=true
+}
+
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+%==============================================================================
+% name/title and related
+
+\author{Marina Wahl}
+\title{Theoretical and Computational Aspects of Neutron Stars and X-Ray Bursts Atmospheres}
+\month{December}
+\year{2014}
+\program{Physics}
+
+%==============================================================================
+% committee
+
+\directora{Dr.\ Alan Calder}
+   {Professor, Department of Physics and Astronomy}
+\director{Dr.\ Jim Lattimer}
+   {Professor, Department of Physics and Astronomy}
+\chairman{Dr.\ Joanna Kiryluk}
+   {Associate Professor, Department of Physics and Astronomy}
+\fstmember{Dr.\ Zach Medin}
+   {Associate Scientist, Los Alamos National Laboratory}
+\sndmember{Dr.\ Fox \ Mulder}
+   {Associate Professor, Department of Physics and Astronomy}
+\outmember{Dr.\ Rosalba Perna}
+   {Associate Professor, Physics Department}{Department of Physics and Astronomy}   
+\dean{Charles Taber}{Dean of the Graduate School}
+
+
+
+
+
+%==============================================================================
+% start of the document
+
+\makeindex 
+\begin{document}
+
+%\singlespacing
+\doublespacing
+
+\pagenumbering{roman}
+\pdfbookmark[-1]{Preliminary Pages}{doc:preliminary}
+
+%==============================================================================
+
+
+\pdfbookmark[0]{Title}{doc:title}
+\maketitle
+
+%==============================================================================
+
+\makeapproval
+
+%==============================================================================
+
+\pdfbookmark[0]{Abstract}{docs:abstract}
+\begin{abstract}
+\input{subdocuments/abstract.tex}
+\end{abstract}
+
+
+
+%==============================================================================
+
+\begin{dedication}
+In Loving Memory of my Father
+\end{dedication}
+
+
+%==============================================================================
+
+\pdfbookmark[0]{Table of Contents}{docs:toc}
+\tableofcontents
+
+
+%==============================================================================
+
+\listoffigures
+\listoftables
+\input{subdocuments/abbreviations.tex}
+\input{subdocuments/symbols.tex}
+
+
+
+%==============================================================================
+
+\begin{acknowledgements}
+\input{subdocuments/acknowledgements.tex}
+\end{acknowledgements}
+
+
+
+%==============================================================================
+
+\pagestyle{thesis}
+\newpage
+\pagenumbering{arabic}
+
+
+
+%==============================================================================
+
+\pdfbookmark[-1]{Introduction}{doc:intro}
+%\input{subdocuments/introduction.tex 
+
+
+\part{Theoretical Review}
+\input{subdocuments/intro.tex}
+\input{subdocuments/ns_intro.tex}
+\input{subdocuments/ns_atm.tex}
+\input{subdocuments/ns_hydro.tex}
+\input{subdocuments/ns_formation.tex}
+\input{subdocuments/ns_examples.tex}
+
+
+
+\part{Results}
+ 
+
+
+
+%==============================================================================
+
+\bibliographystyle{styles/apj}
+\renewcommand{\baselinestretch}{1}
+\normalsize
+\clearpage
+\phantomsection
+\pdfbookmark[-1]{Reference Material}{doc:reference}
+\bibliography{subdocuments/biblio}
+
+
+
+%==============================================================================
+
+\clearpage
+\appendix
+
+
+%==============================================================================
+\end{document}

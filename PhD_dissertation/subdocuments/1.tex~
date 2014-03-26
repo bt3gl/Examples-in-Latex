@@ -1,0 +1,201 @@
+\section{What are X-ray Bursts}
+
+
+
+
+\subsection{Type I X-ray bursts}
+Neutron stars erupt in thermonuclear conflagration every few hours, producing {\it Type I X-ray bursts}.
+
+X-ray observatories are: the Rossi X-ray Timing Explore (RXTE), the BeppoSax mission, the XMM-Newton and Chandra \citep{StrohmayerEtAl2003a}.
+
+
+New findings \citep{StrohmayerEtAl2003a}:
+\begin{itemize}
+ \item The discovery of milliseconds oscillations during bursts, the {\it burst oscillations}.
+ \item New regime of nuclear burning on neutron stars, with long flares once a decade, the {\it superbusrts}.
+ \item Discovery of bursts from {\it low accretion rate} neutron stars.
+ \item Evidences for {\it discrete spectral feature} from bursting neutron stars.
+\end{itemize}
+
+
+The gravitational energy released per accreted baryon of proton mass is
+\begin{equation}
+ U = \frac{GMm_p}{R} \sim 200 \mbox{ MeV},
+\end{equation}
+which is much larger than the nuclear energy released by fusion, around 5 MeV. For this fact that the accreted fuel is burned in a much smaller rate than the rate of accretion, nuclear physics plays a prominent role in this phenomenology, \ie {\it the fuels is stored for long periods and then burns rapidly}.
+
+
+Some answers for long standing questions concerning {\it the sources of thermonuclear bursts, the neutron star low mass X-ray binaries} (LMXB) \citep{StrohmayerEtAl2003a}:
+\begin{itemize}
+ \item Discovery of accreting milliseconds pulsars in three LMXB systems.
+ \item Discovery of sub-milliseconds variability from many neutron star LMXBs.
+ \item Detection of many bursting neutron star transients
+\end{itemize}
+
+
+Need to understand the multidimensional nature of thermonuclear flame propagation: how burning is initiated and how it spreads around the neutron star.
+What happened in the accreted layers of neutron stars? How are the compositions of the ashes of H/He burning?
+Low mass accretion rates demands studies on element diffusion. 
+
+
+\subsection{Type II X-ray bursts}
+They are due accretion instability.
+
+Observed on two sources: {\it Rapid Bursters} and {\it Bursting Pulsar}.
+
+
+
+\section{Hydrogen-Helium Burning}
+At the core is the ``thin shell'' instability, in the helium shell above the carbon/oxygen core during the giant phase of the stellar evolution \citep{SchwarzschildEtAl1965a} \citep{HansenEtAl1975a}. Type I X-ray bursts from LMXBs were found by  \citep{GrindlayEtAl1976a} and  \citep{BelianEtAl1976a}. They were soon associated to thermonuclear instabilities with X-ray bursts  \citep{WoosleyEtAl1976a}.
+
+The mass donors, \ie the source of thermonuclear fuel, are old Population II objects or degenerate helium or carbon/oxygen white dwarfs.
+
+
+\subsection{Nuclear Burning During Accumulation and Ignition}
+After the accreted hydrogen and helium become part of the neutron star, it goes through hydrostatic compression. The new fuel reaches ignition densities and temperatures within hours. 
+
+The compression rate depends on the accretion rate per unit of area
+\begin{equation}
+ \dot m = \frac{\dot M}{A_{acc}},
+\end{equation}
+where $A_{acc}$ is the area covered by the new material, a typical value would be $A_{acc} = 4 \pi R^2 \sim 1.2 \times 10^{13} \mbox{ cm}^2$.
+
+We call {\it thermal time} \index{Thermal Time} the time that takes for the heat transport to cool the deep envelope, and it's usually few seconds if we assume pressures of $P\sim 10^{22}$ erg $cm^{-3}$, much longer than the time to accumulate material, therefore the compression is adiabatic.
+
+The temperature is over $T> 10^7$ K in the accumulating atmosphere so that the hydrogen burns via CNO cycle, and the pp cycle can be neglected. \index{Nuclear Cycles!CNO} \index{Nuclear Cycles!Proton-proton}
+At $T>8\times 10^7$ K the timescale for proton captures becomes shorter than the $\beta$ decay lifetimes so the hydrogen burns in the CNO cycle.
+$$^{12}C(p,\gamma)^{13}N(p, \gamma)^{14}O(\beta^+)^{14}N(p, \gamma)^{15}O(\beta^+)^{15}N(p, \alpha)^{12}C,$$
+limited to $5.8\times 10^{15} Z_{CNO}$ ergs g$^{-1}$ s$^{-1}$, where $Z_{CNO}$ is the mass fraction of CNO.
+
+\subsubsection*{Hydrogen Burning}
+The hydrogen will burn this way when it is thermally stable and 
+$$\dot m > 900 \mbox{ g cm}^{-2} \mbox{ s}^{-1} \Big (\frac{Z_{CNO}}{0.001} \Big)^{1/2}.$$
+
+The time to burn the hydrogen is about one day with solar metallicities, given by 
+$$t \sim \frac{10^3}{Z_{CNO}} \mbox{ seconds},$$
+and longer if the star has low metal content. For lower $\dot m$, the hydrogen burning is thermally unstable and can trigger Type I bursts.
+
+So mixed H/He burning triggered by thermally unstable hydrogen happens for smaller values of $\dot m$.
+
+
+\subsubsection*{H/He Burning}
+The simultaneous H/He burning occurs when
+$$ \dot m > 2 \times 10^3 \mbox{ g} \mbox{ cm}^{-2} \mbox{ s}^{-1} \Big ( \frac{Z_{CNO}}{0.01} \Big)^{13/18},$$
+where the fluid is compressed to helium ignition conditions before the hydrogen is completely burned. The strong temperature dependence of the helium burning and the lack of weak interactions lead to the thin-shell instabilities and causes the bursts.
+
+Stable burning at higher $\dot m$ happens when the helium burning temperature becomes weaker than the cooling rates, resulting on the absence of bursts from high-field X-ray pulsars.
+
+Mixed H/He burning triggered by thermally unstable Helium for this values.
+
+
+\subsubsection*{Pure He Burning}
+There is some $\dot m$ where the hydrogen is completely burned before the helium ignites and pure helium shell accumulates until reach the pure helium layer. Pure helium flashes should have recurrence times in scales of a day. Defining $\alpha$ \index{$\alpha$} as the ratio of the time-averaged persistent to burst luminosity, in this case $\alpha \sim 200$.
+
+Pure helium shell ignition are in between of the above values of $\dot m$, following completion of hydrogen burning.
+
+
+\subsubsection*{$Z_{CNO}$}
+Reducing $Z_{CNO}$ will lower the transition accretion rates and narrows the $\dot m$ range for pure helium ignition.
+
+Another effect to the burning is the amount of heat flux coming of the burning layer from deeper parts of the neutron star.
+
+
+\subsection{Burning During the Bursts}
+The flash occurs at fixed pressure and the increasing temperature allows the radiation pressure to dominate. For an ignition column of $2 \times 10^8$ g cm$^{-2}$, the pressure is 
+$$P=gy \sim 4 \times 10^{22} \mbox{ ergs cm}^{-3},$$
+so
+$$ P \sim a T^4_{max}/3 \longrightarrow T_{max} \sim 2 \times 10^9 \mbox{ K}.$$
+
+For pure helium flashes the fuel burns rapidly (no weak interactions) and the local {\it Eddington limit} is exceeded \index{Eddington Limit}. These conditions lead to {\it photopheric radius expansion} (PRE), \index{Photopheric Radius Expansion} set by the time it takes the heat to escape, 5 to 10 seconds.
+
+\subsubsection*{Production of Heavier Elements}
+When H and He are present, the temperatures in the thermal instabilities can produce elements far beyond the iron group via {\it rapid-proton} (rp) \index{Rapid Proton Process} process. These burning process faster than the $\beta$ decay, taking the catalystis out of the CNO loop. (reaches the SnSbTe cycle)
+
+If the hydrogen is exhausted prior Helium is burned, the carbon during the Helium burning remains carbon since there is no protons available, and this carbon are the fuel for the {\it superbusrts}. \index{Superbursts}
+
+\subsubsection*{Cyclic Bursts}
+Bursts can occur periodically as $\dot m$ stays at a fixed values. The recurrence time is shortened $\propto \dot M^{-1}$, \ie the accumulated mass is the sames as $\dot M$ changes.
+
+
+\section{Observational Studies of Bursts}
+Observed from a subclass of LMXBs with luminosities $L> 10^{36}$ ergs s$^{-1}$. Some findings with less than this, the mass accretion rate dependence of thermonuclear burning is unexplored.
+
+
+\subsection{Spectra Profile}
+
+The time profile of X-ray bursts share the following features:
+\begin{itemize}
+ \item Burst rise times are shorter than their decay times.
+ \item Burst profiles are shorter at high energies (cooling of the surface with time).
+ \item Burst profiles are smooth, with an exponential-like intensity decay (thermal/blackbody spectra)
+\end{itemize}
+
+The radius of a blackbody emitting a flux, $F_{bol}$, at temperature $T_{bb}$ is
+$$R_{bb}= d \Big( \frac{F_{bol}}{\sigma T^4_{bb}} \Big )^{1/2},$$
+where d is the source distance. Measuring the fluxes and temperatures can be used to infer radii. Theoretically the burst spectra should be harder than a blackbody at the effective temperature of atmosphere because the scattering of electrons (compton) is an opacity source at a neutron star atmosphere.
+
+\subsection{Photospheric Radius Expansion Bursts}
+In bright bursts the local X-ray luminosity in the atmosphere may reach the Eddington limit \index{Eddington Limit}
+$$L_{Edd} = (4\pi c GM/\kappa)(1-2GM/c^2R)^{-1/2} = 4\pi R^2 \sigma T^4_{eff},$$
+where $\kappa$ is the atmosphere opacity, so the photopheric layers can be lifted off the neutron star surface by radiation pressure. In these bursts, the blackbody temperature decreases and the radius increase while the total X-ray flux stays contant, PRE. When the photosphere fall back to the neutron star surface is called {\it touchdown}.
+
+Differences of luminosity, color temperature for faint bursts and PRE bursts, can be explained by hydrogen rich and poor atmospheres respectively. The PRE bursts eject the hydrogen evelope so the atmospehre is pure helium.
+
+Less powefuk bursts may show double peaked, as only a portion of the flux is shifted out the X-ray band by the PRE.
+
+Since the Eddington luminosity impose an upper limit to burst fluxes, bursts might provide a ``standard candle'', being used as distance indicator.
+
+
+The observation of the effective temperature when the luminosity is Eddington limited gives a constraint of M and R of the neutron stars, but the color must be corrected by the atmosphere model. 
+
+\subsection{Burst Spectroscopy}
+To detect systematic uncertainties in the continuum spectra from bursts one can detect line features the neutron star surface, obtaining a measurement of the gravitational redshift:
+\begin{equation}
+ 1 + z = \Big (  1 - \frac{2GM}{c^2 R} \Big)^{=1/2}.
+\end{equation}
+
+There are deviations from the blackbody spectra during bursts, more significant during the radius expansion and contraction phases.
+
+
+
+\subsection{Burst Intervals and $\dot M$ Dependence}
+
+We would expect that the time between bursts decreases as $\dot M$ increases since it takes less time to accumulate the critical amount of fuel when it's highter. The opposite happens for low accretion rate. 
+
+The observations suggest that the covered area increases fast enough with increasing $\dot M$ that the accretion rate per unit decreases.
+
+We can interpret the $R_{bb}$ as the fraction of star that is covered by freshly accreted fuel, so
+$$F_x = \frac{GM\dot M}{4 \pi d^2 R}$$
+gives
+$$ \dot m = \frac{\dot M}{4 \pi R^2_{bb}} \sim \frac{F_x R}{GM} \Big (\frac{d}{R_{bb}} \Big )^2.$$
+
+
+
+\section{Millisecond Variability of X-ray Bursts}
+Burst oscillations were discovered in Fourier power spectra from high time resolution lightcurves of the entire burst. The modulation amplitude drops as the flux increases to the maximum. 
+
+
+\subsection{Frequency Evolution of Burst Oscillations}
+The frequency evolution in some bursts can be modeled as a smooth exponential recovery of the form
+\begin{equation}
+ \nu(t) = \nu_0(1-\delta_{\nu}e^{-t/\tau}),
+\end{equation}
+where $\nu_0$ is the asymptotic frequency, $\delta_{\nu}$ is the fractional frequency drift, and $\tau$ is the recovery timescale.
+
+The phase evolution can be modeled as a polynomial and the exponential relaxation model was adequate to many bursts.
+
+The mass accretion rate, $\dot M$, has a strong influence on the strength e detectability of bursts oscillations.
+
+
+Burst oscillations detected only in the rising phases were found with highest $\dot M$ while bursts with oscillations only in the cooling phase were found at lower $\dot M$.
+
+
+The emission and propagataion of photons from the surfaces of rapdily rotating netutrons star ar influencied by general relativity effects.  Gravitational light deflecton suppreses the modulation ampliturde and reduces the harmonic content of pulses produced by rotational modulation of a hot spot on a rotating neutron star. The strength of  of light deflection is a function of compactness
+$$ \frac{m}{r} \equiv \frac{GM}{c^2R},$$
+where  more dcompact stars produces weakers spin modulations and introduces a pulse phase depedent Doppler shift in the X-ray spectrum.
+
+The discovery of bursts oscillations provided the first strong observational evidence for millisecond rotation perionds in accreting neutron star LMXB's.
+
+The spin modulation requires a slow moving non uniform brigtness attern on the neutron star surface. No spherical symmetric, what breaks the symmetry?
+
+\section{Superbursts}

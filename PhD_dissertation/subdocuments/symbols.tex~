@@ -1,0 +1,120 @@
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\protect\numberline{}{List of Mathematical and
+Physical Symbols}}
+
+\chapter*{Symbols}
+
+% TODO: I need to add the various symbols from the two SNIa papers and check
+%       the CNe section (especially the rebuild network) for completeness
+
+%------------------------------------------------------------------------------
+
+\subhead{Astrophysical Symbols}
+\begin{symbollist}{\symbsize}
+
+   \item [\hfil$\odot$] refers to the sun; e.g., \Msol for one solar mass
+
+   \item [\hfil$\oplus$] refers to the earth; e.g., $R_\oplus$ for one
+      earth radius
+
+   \item [\hfil$M_{\rm Ch}$] Chandrasekhar mass
+
+   \item [\hfil$M_{\rm ZAMS}$] zero-age main-sequence mass
+
+\end{symbollist}
+
+% a bit of cheating: don't include s for stretch, as I don't really use it (in
+% the papers I seem to stick to "stretch" instead of "s"), which allows me to
+% define s as specific entropy
+
+%------------------------------------------------------------------------------
+
+\vspace{\symbsep}
+
+\subhead{Thermodynamic Symbols}
+\begin{symbollist}{\symbsize}
+
+   \item [\hfil$\rho$] mass density
+
+   \item [\hfil$P$] pressure
+
+   \item [\hfil$\pi$] dynamic pressure, the difference between the full
+      pressure $P$ and the base-state pressure $P_0$ in \code{MAESTRO}
+
+   \item [\hfil$e$] specific total energy
+
+   \item [\hfil$\varepsilon$] specific internal energy
+
+   \item [\hfil$T$] temperature
+
+   \item [\hfil$s$] specific entropy
+
+   \item [\hfil$h$] specific enthalpy
+
+   \item [\hfil$c_P$] isobaric specific heat capacity
+
+   \item [\hfil$\Gamma_1$] logarithmic derivative of pressure with respect to
+      density, evaluated at a constant entropy; i.e.,
+      $\Gamma_1 = \left( \deriv{\log P}{\log \rho} \right)_s$
+
+\end{symbollist}
+
+%------------------------------------------------------------------------------
+
+\vspace{\symbsep}
+
+\subhead{Composition Symbols}
+\begin{symbollist}{\symbsize}
+
+   \item [\hfil$\rho_k$] partial mass density of species $k$
+
+   \item [\hfil$X_k$] mass fraction of species $k$
+
+   \item [\hfil$\dot{\omega}_k$] rate of change of species $k$
+
+   \item [\hfil$Y_k$] molar abundance of species $k$
+
+\end{symbollist}
+
+%------------------------------------------------------------------------------
+
+\vspace{\symbsep}
+
+\subhead{Other Hydrodynamics Symbols}
+\begin{symbollist}{\symbsize}
+
+   \item [\hfil$\vvec{u}$] fluid velocity vector
+
+   \item [\hfil$w_0$] \code{MAESTRO}'s base state radial velocity,
+      $w_0 = \overbar{\left(\vvec{u}\cdot\vvec{e}_r\right)}$
+
+   \item [\hfil$c_s$] speed of sound
+
+   \item [\hfil$\mathcal{M}$] Mach number
+
+   \item [\hfil$g$] gravitational acceleration
+
+   \item [\hfil$f_{\rm vd}$] \code{MAESTRO}'s volume discrepancy factor
+
+   \item [\hfil$S$] is used for a generic source term
+
+\end{symbollist}
+
+%------------------------------------------------------------------------------
+
+\vspace{\symbsep}
+
+\subhead{Miscellaneous Symbols}
+\begin{symbollist}{\symbsize}
+
+   \item [\hfil$\vvec{e}_r$] unit vector in the radial direction
+
+   \item [\hfil$\rbase$] the radius of the base of the accreted layer in a CN
+
+   \item [\hfil$r_{\rm cut}$] the radius of the cut point, which estimates the
+      lower limit of the transition that is cut out of the profile during
+      smoothing
+
+\end{symbollist}
+

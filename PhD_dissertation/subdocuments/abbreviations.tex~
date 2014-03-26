@@ -1,0 +1,50 @@
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\protect\numberline{}{List of Abbreviations}}
+
+\chapter*{Abbreviations}
+
+\noindent This list is ordered alphabetically by abbreviation for ease of
+reference, not by order of appearance in the text.
+
+\begin{symbollist}{\abbrsize}
+
+   \item [\hfil ADR] advection-diffusion-reaction
+
+   \item [\hfil AMR] adaptive mesh refinement
+
+   \item [\hfil CFL] Courant-Friedrichs-Lewy 
+
+   \item [\hfil CNO] carbon-nitrogen-oxygen
+
+   \item [\hfil EoS] equation of state
+
+   \item [\hfil GCD] gravitationally-confined detonation
+
+   \item [\hfil HSE] hydrostatic equilibrium
+
+   \item [\hfil IGE] iron-group element
+
+   \item [\hfil NSE] nuclear statistical equilibrium
+
+   \item [\hfil NSQE] nuclear statistical quasi-equilibrium (also known in the
+      literature as QSE, or quasi-statistical equilibrium)
+
+   \item [\hfil pp] proton-proton
+
+   \item [\hfil rp] rapid proton
+
+   \item [\hfil \SNIa{}] type Ia supernova (plural: \SNeIa, type Ia supernovae)
+   
+   \item [\hfil HMXB] high mass X-ray binary
+   
+   \item [\hfil LMXB] low mass X-ray binary
+   
+   \item [\hfil XRB] X-ray bursts
+   
+   \item [\hfil XRBS]
+   
+   {X-ray binary stars} (XRBS)
+   
+
+\end{symbollist}
