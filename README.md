@@ -1,16 +1,9 @@
-===============================
-Super awesome Examples in Latex
-===============================
+# 💁Examples in LaTex
 
-Some examples in latex:
-
-- the best model for resume in my opinion
-- books
+- resumes
 - articles
 - homework
 - talks (beamer)
 - poster
 - PhD Thesis
 
-
-Please drop me a line or submit a patch if you have any suggestions!
